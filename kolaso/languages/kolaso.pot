@@ -1,0 +1,2406 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: kolaso\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-03-10 09:48+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.2.1; wp-5.1"
+
+#: framework/widgets/widget-audio.php:22
+msgid " Audio OEmbed"
+msgstr ""
+
+#: framework/widgets/widget-contact.php:22
+msgid " Contact Info"
+msgstr ""
+
+#: framework/widgets/widget-facebook.php:22
+msgid " Facebook Box"
+msgstr ""
+
+#: framework/widgets/widget-login.php:22
+msgid " Login Form"
+msgstr ""
+
+#: framework/options/options.config.php:11
+msgid " Options"
+msgstr ""
+
+#: framework/widgets/widget-posts.php:26
+msgid " Posts"
+msgstr ""
+
+#: framework/widgets/widget-portfolio.php:22
+msgid " Recent Work"
+msgstr ""
+
+#: framework/widgets/widget-vcard.php:26
+msgid " Vcard"
+msgstr ""
+
+#: framework/widgets/widget-video.php:22
+msgid " video OEmbed"
+msgstr ""
+
+#: framework/functions/translation.php:54
+#: framework/options/options.config.php:2035
+msgid "% Comments"
+msgstr ""
+
+#: framework/functions/single.fun.php:88
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#. 1: reviews count 2: product name
+#: woocommerce/single-product-reviews.php:34
+#, php-format
+msgid "%1$s review for %2$s"
+msgid_plural "%1$s reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: title of menu item which is invalid
+#: framework/functions/walker.fun.php:165
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#. %s: title of menu item in draft status
+#: framework/functions/walker.fun.php:169
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: framework/functions/footer.fun.php:36
+msgid "&copy; Copyright "
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: framework/functions/single.fun.php:87
+msgid ", "
+msgstr ""
+
+#: framework/functions/footer.fun.php:36
+msgid ". With Love By"
+msgstr ""
+
+#: framework/options/options.config.php:794
+msgid "1 Column"
+msgstr ""
+
+#: framework/options/options.config.php:795
+msgid "2 Columns"
+msgstr ""
+
+#: framework/options/options.config.php:1524
+msgid "3 Column"
+msgstr ""
+
+#: framework/options/options.config.php:796
+msgid "3 Columns"
+msgstr ""
+
+#: framework/options/options.config.php:1525
+msgid "4 Column"
+msgstr ""
+
+#: framework/options/options.config.php:797
+msgid "4 Columns"
+msgstr ""
+
+#: framework/functions/translation.php:18
+msgid "404"
+msgstr ""
+
+#: framework/options/options.config.php:1821
+msgid "404 Description"
+msgstr ""
+
+#: framework/options/options.config.php:1814
+msgid "404 Title"
+msgstr ""
+
+#: framework/functions/pagination.fun.php:34
+msgid "<i class=\"fa fa-angle-left\"></i>"
+msgstr ""
+
+#: framework/functions/pagination.fun.php:35
+msgid "<i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: framework/options/options.config.php:408
+msgid ">if it's blank, site title will be add from settings."
+msgstr ""
+
+#: framework/options/options.config.php:912
+msgid "Active Back To Top"
+msgstr ""
+
+#: framework/options/options.config.php:651
+msgid "Active Background Parallax"
+msgstr ""
+
+#: framework/options/options.config.php:1632
+msgid "Active Layout Dark"
+msgstr ""
+
+#: framework/options/options.config.php:108
+msgid "Active Page Loader"
+msgstr ""
+
+#: framework/options/options.config.php:1599
+msgid "Active Pagination"
+msgstr ""
+
+#: framework/options/options.config.php:1585
+msgid "Active Product Meta"
+msgstr ""
+
+#: framework/options/options.config.php:1606
+msgid "Active Related Products"
+msgstr ""
+
+#: framework/options/options.config.php:1578
+msgid "Active Share"
+msgstr ""
+
+#: framework/options/options.config.php:304
+msgid "Active Sticky Header"
+msgstr ""
+
+#: framework/options/options.config.php:1592
+msgid "Active Tabs"
+msgstr ""
+
+#: framework/options/options.config.php:1778
+msgid "Active Translation"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:71
+msgid "Add a review"
+msgstr ""
+
+#: framework/functions/translation.php:64
+#: framework/options/options.config.php:2105
+msgid "Add Comment"
+msgstr ""
+
+#: framework/options/metabox.config.php:553
+msgid "Add Image To Gallery"
+msgstr ""
+
+#: framework/options/metabox.config.php:469
+msgid "Add youtube video or vimeo or upload video"
+msgstr ""
+
+#: woocommerce/single-product/tabs/additional-information.php:25
+msgid "Additional information"
+msgstr ""
+
+#: framework/options/options.config.php:574
+msgid "Address"
+msgstr ""
+
+#: framework/widgets/widget-contact.php:65
+#: framework/widgets/widget-contact.php:133
+msgid "Address:"
+msgstr ""
+
+#: framework/demo-data/imports.php:18 framework/demo-data-old/imports.php:18
+msgid "After you import this demo, you will have all pages and post."
+msgstr ""
+
+#: framework/plugins/plugins.php:211
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: woocommerce/cart/cart.php:131
+msgid "Apply coupon"
+msgstr ""
+
+#: framework/functions/translation.php:30
+#: framework/options/options.config.php:1883
+#: framework/options/options.config.php:1889
+msgid "Archive"
+msgstr ""
+
+#: framework/options/options.config.php:1306
+msgid "Archive Layout"
+msgstr ""
+
+#: framework/options/options.config.php:1510
+msgid "Archives Layout"
+msgstr ""
+
+#: framework/options/options.config.php:945
+msgid "Arrow"
+msgstr ""
+
+#: framework/options/options.config.php:947
+msgid "Arrow Hover"
+msgstr ""
+
+#: framework/widgets/widget-posts.php:190
+msgid "Ascending  Order"
+msgstr ""
+
+#: framework/options/metabox.config.php:528
+msgid "Audio Content"
+msgstr ""
+
+#: framework/options/metabox.config.php:503
+msgid "Audio Format"
+msgstr ""
+
+#: framework/options/metabox.config.php:518
+msgid "Audio URL"
+msgstr ""
+
+#: framework/widgets/widget-audio.php:103
+msgid "Audio URL:"
+msgstr ""
+
+#: framework/widgets/widget-audio.php:111
+msgid "Audio Width:"
+msgstr ""
+
+#: framework/options/options.config.php:1174
+#: framework/widgets/widget-posts.php:214
+msgid "Author"
+msgstr ""
+
+#: framework/options/metabox.config.php:316
+msgid "Author Say"
+msgstr ""
+
+#: woocommerce/cart/cart.php:75
+msgid "Available on backorder"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:96
+msgid "Average"
+msgstr ""
+
+#: framework/options/options.config.php:900
+#: framework/options/options.config.php:907
+msgid "Back To Top"
+msgstr ""
+
+#: framework/options/options.config.php:946
+msgid "Background"
+msgstr ""
+
+#: framework/options/metabox.config.php:59
+#: framework/options/options.config.php:77
+#: framework/options/options.config.php:542
+#: framework/options/options.config.php:767
+#: framework/options/options.config.php:863
+msgid "Background Color"
+msgstr ""
+
+#: framework/options/options.config.php:948
+msgid "Background hover"
+msgstr ""
+
+#: framework/options/metabox.config.php:150
+#: framework/options/metabox.config.php:611
+#: framework/options/options.config.php:656
+#: framework/options/options.config.php:997
+#: framework/options/options.config.php:1279
+#: framework/options/options.config.php:1482
+msgid "Background Image"
+msgstr ""
+
+#: framework/options/options.config.php:931
+msgid "Backtop Alignment"
+msgstr ""
+
+#: framework/options/options.config.php:943
+msgid "Backtop Style"
+msgstr ""
+
+#: framework/options/options.config.php:918
+msgid "Backtop Type"
+msgstr ""
+
+#: framework/options/options.config.php:2240
+msgid "Backup"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:71
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr ""
+
+#: framework/plugins/plugins.php:201
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins.php:191
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins.php:196
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/options/options.config.php:232
+msgid "Behance"
+msgstr ""
+
+#: framework/widgets/widget-vcard.php:329
+msgid "Behance Account"
+msgstr ""
+
+#: framework/widgets/widget-posts.php:179
+msgid "Big Thumbinal"
+msgstr ""
+
+#: framework/options/options.config.php:503
+msgid "Bio Content"
+msgstr ""
+
+#: framework/options/metabox.config.php:352
+msgid "Biographical Info"
+msgstr ""
+
+#: framework/functions/translation.php:41
+#: framework/options/options.config.php:1952
+msgid "Blog"
+msgstr ""
+
+#: framework/options/options.config.php:1017
+msgid "Blog Archive"
+msgstr ""
+
+#: framework/options/options.config.php:971
+msgid "Blog Base"
+msgstr ""
+
+#: framework/options/options.config.php:963
+msgid "Blog Options"
+msgstr ""
+
+#: framework/options/options.config.php:1129
+msgid "Blog Single"
+msgstr ""
+
+#: framework/options/metabox.config.php:51
+#: framework/options/options.config.php:84
+msgid "Body Background"
+msgstr ""
+
+#: framework/options/metabox.config.php:40
+#: framework/options/options.config.php:43
+#: framework/options/options.config.php:49
+msgid "Body Layout"
+msgstr ""
+
+#: framework/options/options.config.php:1664
+msgid "Body Typography"
+msgstr ""
+
+#: framework/options/metabox.config.php:66
+#: framework/options/options.config.php:61
+msgid "Border Color"
+msgstr ""
+
+#: framework/options/options.config.php:869
+msgid "Border Top Color"
+msgstr ""
+
+#: framework/options/options.config.php:68
+msgid "Border Width"
+msgstr ""
+
+#: framework/options/options.config.php:696
+msgid "breadcrumbs Style"
+msgstr ""
+
+#: framework/options/options.config.php:1756
+msgid "Button"
+msgstr ""
+
+#: framework/options/options.config.php:1644
+msgid "Button Color"
+msgstr ""
+
+#: framework/options/options.config.php:471
+msgid "Button Link"
+msgstr ""
+
+#: framework/options/options.config.php:458
+msgid "Button Options"
+msgstr ""
+
+#: framework/options/options.config.php:478
+msgid "Button Style"
+msgstr ""
+
+#: framework/options/options.config.php:464
+#: framework/options/options.config.php:1743
+msgid "Button Text"
+msgstr ""
+
+#: framework/options/options.config.php:11
+msgid "By Zytheme"
+msgstr ""
+
+#: framework/options/options.config.php:1959
+msgid "By:"
+msgstr ""
+
+#: framework/functions/translation.php:42
+msgid "By: "
+msgstr ""
+
+#: framework/functions/walker.fun.php:374
+msgid "Cancel"
+msgstr ""
+
+#: framework/options/options.config.php:1175
+#: framework/widgets/widget-posts.php:217
+msgid "Category"
+msgstr ""
+
+#: framework/functions/translation.php:72
+#: framework/options/options.config.php:2154
+#: woocommerce/single-product/meta.php:48
+msgid "Category:"
+msgstr ""
+
+#: framework/functions/translation.php:31
+#: framework/options/options.config.php:1896
+msgid "Category: "
+msgstr ""
+
+#: woocommerce/cart/cart.php:139
+msgid "checkout"
+msgstr ""
+
+#: framework/options/options.config.php:920
+msgid "Circle"
+msgstr ""
+
+#: framework/options/metabox.config.php:252
+msgid "Client / Project Name"
+msgstr ""
+
+#: framework/functions/translation.php:69
+#: framework/options/options.config.php:2133
+msgid "Client:"
+msgstr ""
+
+#: framework/functions/translation.php:57
+#: framework/options/options.config.php:2056
+msgid "Comment navigation"
+msgstr ""
+
+#: framework/options/options.config.php:1172
+#: framework/options/options.config.php:2008
+msgid "Comments"
+msgstr ""
+
+#: framework/functions/translation.php:59
+#: framework/options/options.config.php:2070
+msgid "Comments are closed."
+msgstr ""
+
+#: framework/plugins/plugins.php:102
+msgid "Contact Form 7"
+msgstr ""
+
+#: framework/options/options.config.php:559
+msgid "Contact Information"
+msgstr ""
+
+#: framework/options/options.config.php:854
+msgid "Copyright"
+msgstr ""
+
+#: woocommerce/cart/cart.php:131
+msgid "Coupon code"
+msgstr ""
+
+#: woocommerce/cart/cart.php:131
+msgid "Coupon:"
+msgstr ""
+
+#: framework/functions/walker.fun.php:305
+msgid "Create Mega Menu for this item"
+msgstr ""
+
+#: framework/functions/header.fun.php:224
+msgid "Create New Menu"
+msgstr ""
+
+#: framework/functions/walker.fun.php:244
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: framework/options/options.config.php:1748
+msgid "Custom Action"
+msgstr ""
+
+#: framework/options/options.config.php:1572
+#: framework/options/options.config.php:1725
+msgid "Custom Content"
+msgstr ""
+
+#: framework/options/options.config.php:2216
+msgid "Custom CSS"
+msgstr ""
+
+#: framework/options/options.config.php:2224
+msgid "Custom CSS Style"
+msgstr ""
+
+#: framework/options/metabox.config.php:185
+msgid "Custom footer layout"
+msgstr ""
+
+#: framework/options/metabox.config.php:95
+msgid "Custom Header Layout"
+msgstr ""
+
+#: framework/options/options.config.php:2181
+msgid "Custom JS Code"
+msgstr ""
+
+#: framework/options/metabox.config.php:31
+#: framework/options/options.config.php:1555
+msgid "Custom Layout"
+msgstr ""
+
+#: framework/options/metabox.config.php:171
+#: framework/options/metabox.config.php:618
+msgid "Custom Page Description"
+msgstr ""
+
+#: framework/options/metabox.config.php:165
+msgid "Custom Page Title"
+msgstr ""
+
+#: framework/options/metabox.config.php:127
+msgid "Custom page title layout"
+msgstr ""
+
+#: framework/plugins/plugins.php:120
+msgid "Custom Twitter Feeds"
+msgstr ""
+
+#: framework/options/options.config.php:1171
+#: framework/widgets/widget-posts.php:202
+msgid "Date"
+msgstr ""
+
+#: framework/widgets/widget-posts.php:213
+msgid "Date Meta"
+msgstr ""
+
+#: framework/widgets/widget-posts.php:203
+msgid "Date Modified"
+msgstr ""
+
+#: framework/functions/translation.php:71
+#: framework/options/options.config.php:2147
+msgid "Date:"
+msgstr ""
+
+#: framework/options/options.config.php:710
+msgid "Delimiter"
+msgstr ""
+
+#: framework/options/options.config.php:717
+msgid "Delimiter Color"
+msgstr ""
+
+#: framework/widgets/widget-posts.php:191
+msgid "Descending Order"
+msgstr ""
+
+#: framework/functions/walker.fun.php:256
+#: framework/options/options.config.php:1737
+msgid "Description"
+msgstr ""
+
+#: framework/options/options.config.php:684
+msgid "Description Style"
+msgstr ""
+
+#: framework/widgets/widget-vcard.php:238
+msgid "Description:"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:35
+msgid "Dimensions"
+msgstr ""
+
+#: framework/plugins/plugins.php:212
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/widgets/widget-vcard.php:27
+msgid "Display about info data"
+msgstr ""
+
+#: framework/widgets/widget-audio.php:23
+msgid "display audio with oEmbed"
+msgstr ""
+
+#: framework/options/options.config.php:1213
+msgid "Display Author Box"
+msgstr ""
+
+#: framework/options/options.config.php:1096
+msgid "Display Autor"
+msgstr ""
+
+#: framework/widgets/widget-posts.php:27
+msgid "display blog posts"
+msgstr ""
+
+#: framework/options/options.config.php:1077
+#: framework/options/options.config.php:1408
+msgid "Display Category"
+msgstr ""
+
+#: framework/options/options.config.php:1394
+msgid "Display Client"
+msgstr ""
+
+#: framework/options/options.config.php:1232
+msgid "Display Comments"
+msgstr ""
+
+#: framework/options/options.config.php:1090
+msgid "Display Comments Number"
+msgstr ""
+
+#: framework/widgets/widget-contact.php:23
+msgid "Display contact info data"
+msgstr ""
+
+#: framework/options/options.config.php:1070
+#: framework/options/options.config.php:1415
+msgid "Display Date"
+msgstr ""
+
+#: framework/widgets/widget-facebook.php:23
+msgid "display facebook page like box"
+msgstr ""
+
+#: framework/options/options.config.php:1401
+msgid "Display Location"
+msgstr ""
+
+#: framework/widgets/widget-login.php:23
+msgid "Display login WordPress from"
+msgstr ""
+
+#: framework/options/options.config.php:1161
+msgid "Display Meta Data Box"
+msgstr ""
+
+#: framework/widgets/widget-posts.php:211
+msgid "Display Meta:"
+msgstr ""
+
+#: framework/options/options.config.php:1387
+msgid "Display Next / Privous Items"
+msgstr ""
+
+#: framework/options/options.config.php:1156
+msgid "Display Post Title"
+msgstr ""
+
+#: framework/options/options.config.php:1219
+msgid "Display Previous / Next Post"
+msgstr ""
+
+#: framework/options/options.config.php:1083
+msgid "Display Read More"
+msgstr ""
+
+#: framework/options/options.config.php:1102
+msgid "Display Reading Time"
+msgstr ""
+
+#: framework/widgets/widget-portfolio.php:23
+msgid "display recent work from portfolio"
+msgstr ""
+
+#: framework/options/options.config.php:1225
+msgid "Display Related Posts Box"
+msgstr ""
+
+#: framework/options/options.config.php:1191
+msgid "Display share Box"
+msgstr ""
+
+#: framework/options/options.config.php:1380
+msgid "Display Share This"
+msgstr ""
+
+#: framework/options/options.config.php:1184
+msgid "Display Tags"
+msgstr ""
+
+#: framework/widgets/widget-video.php:23
+msgid "display video with oEmbed"
+msgstr ""
+
+#: framework/functions/admin.fun.php:83 framework/functions/admin.fun.php:93
+#: framework/functions/admin.fun.php:103 framework/functions/admin.fun.php:113
+msgid "Display widgets on footer column which appear on site bottom."
+msgstr ""
+
+#: framework/functions/admin.fun.php:56
+msgid ""
+"Display widgets on pages and posts which sideabr right or left is active in "
+"it."
+msgstr ""
+
+#: framework/functions/admin.fun.php:125
+msgid ""
+"Display widgets on product or products archives which sidebar is active in "
+"it."
+msgstr ""
+
+#: framework/functions/admin.fun.php:66
+msgid "Display widgets on sidearea when sidearea option in theme is active."
+msgstr ""
+
+#: framework/functions/walker.fun.php:266
+msgid "Down one"
+msgstr ""
+
+#: framework/options/options.config.php:179
+msgid "Dribbble"
+msgstr ""
+
+#: framework/widgets/widget-vcard.php:280
+msgid "Dribbble Account"
+msgstr ""
+
+#: framework/functions/translation.php:48
+#: framework/options/options.config.php:2001
+msgid "Edit Content"
+msgstr ""
+
+#: framework/functions/walker.fun.php:208
+#: framework/functions/walker.fun.php:210
+msgid "Edit Menu Item"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:79
+msgid "Email"
+msgstr ""
+
+#: framework/functions/translation.php:61
+#: framework/options/options.config.php:2084
+msgid "Email *"
+msgstr ""
+
+#: framework/options/options.config.php:564
+msgid "Email Adress"
+msgstr ""
+
+#: framework/widgets/widget-contact.php:59
+#: framework/widgets/widget-contact.php:125
+msgid "Email:"
+msgstr ""
+
+#: framework/options/options.config.php:584
+msgid "Enable Social Link"
+msgstr ""
+
+#: framework/options/options.config.php:144
+#: framework/options/options.config.php:1201
+msgid "Facebook"
+msgstr ""
+
+#: framework/options/metabox.config.php:373
+#: framework/widgets/widget-vcard.php:245
+msgid "Facebook Account"
+msgstr ""
+
+#: framework/widgets/widget-facebook.php:97
+msgid "Facebook Page URL:"
+msgstr ""
+
+#: framework/options/options.config.php:420
+msgid "Favicon"
+msgstr ""
+
+#: framework/options/options.config.php:120
+msgid "Folding Circle"
+msgstr ""
+
+#: framework/options/options.config.php:119
+msgid "Folding Cube"
+msgstr ""
+
+#: framework/functions/walker.fun.php:286
+msgid "Font Awesome"
+msgstr ""
+
+#: framework/options/options.config.php:835
+#: framework/options/options.config.php:842
+msgid "Footer Bottom"
+msgstr ""
+
+#: framework/functions/admin.fun.php:81
+msgid "Footer Column 1"
+msgstr ""
+
+#: framework/functions/admin.fun.php:91
+msgid "Footer Column 2"
+msgstr ""
+
+#: framework/functions/admin.fun.php:101
+msgid "Footer Column 3"
+msgstr ""
+
+#: framework/functions/admin.fun.php:111
+msgid "Footer Column 4"
+msgstr ""
+
+#: framework/options/options.config.php:791
+msgid "Footer Columns"
+msgstr ""
+
+#: framework/options/metabox.config.php:192
+#: framework/options/options.config.php:740
+#: framework/options/options.config.php:747
+#: framework/options/options.config.php:752
+msgid "Footer Layout"
+msgstr ""
+
+#: framework/functions/admin.fun.php:30
+msgid "Footer Navigation"
+msgstr ""
+
+#: framework/options/options.config.php:732
+msgid "Footer Options"
+msgstr ""
+
+#: framework/options/options.config.php:823
+msgid "Footer Padding"
+msgstr ""
+
+#: framework/options/options.config.php:778
+#: framework/options/options.config.php:785
+msgid "Footer Top"
+msgstr ""
+
+#: framework/options/metabox.config.php:268
+#: framework/options/options.config.php:1361
+msgid "Gallery"
+msgstr ""
+
+#: framework/options/options.config.php:1353
+msgid "Gallery Layout"
+msgstr ""
+
+#: framework/options/options.config.php:1783
+msgid "General"
+msgstr ""
+
+#: framework/options/options.config.php:28
+msgid "General Options"
+msgstr ""
+
+#: framework/widgets/widget-login.php:50
+msgid "Go To Dashaboard"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:95
+msgid "Good"
+msgstr ""
+
+#: framework/options/options.config.php:1203
+msgid "Google Plus"
+msgstr ""
+
+#: framework/options/metabox.config.php:381
+msgid "Google Plus Account"
+msgstr ""
+
+#: framework/options/options.config.php:159
+msgid "Google+"
+msgstr ""
+
+#: framework/widgets/widget-vcard.php:260
+msgid "Google+ Account"
+msgstr ""
+
+#: framework/options/options.config.php:1042
+msgid "Grid Style"
+msgstr ""
+
+#: framework/options/options.config.php:1671
+msgid "H1 Typography"
+msgstr ""
+
+#: framework/options/options.config.php:1679
+msgid "H2 Typography"
+msgstr ""
+
+#: framework/options/options.config.php:1685
+msgid "H3 Typography"
+msgstr ""
+
+#: framework/options/options.config.php:1692
+msgid "H4 Typography"
+msgstr ""
+
+#: framework/options/options.config.php:1699
+msgid "H5 Typography"
+msgstr ""
+
+#: framework/options/options.config.php:1706
+msgid "H6 Typography"
+msgstr ""
+
+#: framework/options/options.config.php:298
+msgid "Header Additional Options"
+msgstr ""
+
+#: framework/options/options.config.php:292
+msgid "Header Background Color"
+msgstr ""
+
+#: framework/options/options.config.php:310
+msgid "Header Container Fluid"
+msgstr ""
+
+#: framework/options/metabox.config.php:90
+#: framework/options/options.config.php:265
+#: framework/options/options.config.php:277
+#: framework/options/options.config.php:1449
+msgid "Header Layout"
+msgstr ""
+
+#: framework/options/options.config.php:272
+#: framework/options/options.config.php:1444
+msgid "Header Layout Options"
+msgstr ""
+
+#: framework/options/options.config.php:257
+msgid "Header Options"
+msgstr ""
+
+#: framework/options/options.config.php:848
+msgid "Hidden Footer Bottom"
+msgstr ""
+
+#: framework/options/options.config.php:452
+msgid "Hidden Nav Active Line"
+msgstr ""
+
+#: framework/functions/translation.php:12
+#: framework/options/options.config.php:1789
+msgid "Homepage"
+msgstr ""
+
+#: framework/widgets/widget-contact.php:62
+msgid "Hours:"
+msgstr ""
+
+#: framework/options/options.config.php:1320
+msgid "Hover Centered"
+msgstr ""
+
+#: framework/options/options.config.php:1317
+msgid "Hover Effect"
+msgstr ""
+
+#: framework/options/options.config.php:1319
+msgid "Hover Fade In"
+msgstr ""
+
+#: framework/options/options.config.php:1321
+msgid "Hover Slide Down"
+msgstr ""
+
+#: framework/options/options.config.php:1322
+msgid "Hover Slide Left"
+msgstr ""
+
+#: framework/options/metabox.config.php:495
+msgid "HTML5"
+msgstr ""
+
+#: framework/functions/walker.fun.php:286
+msgid "https://fortawesome.github.io/Font-Awesome/icons/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themeforest.net/user/zytheme/portfolio"
+msgstr ""
+
+#. URI of the theme
+msgid "https://themes.zytheme.com/kolaso/"
+msgstr ""
+
+#: framework/functions/walker.fun.php:287
+msgid "https://themify.me/themify-icons"
+msgstr ""
+
+#: framework/options/metabox.config.php:269
+#: framework/options/options.config.php:1362
+msgid "Images Big"
+msgstr ""
+
+#: framework/options/metabox.config.php:270
+#: framework/options/options.config.php:1363
+msgid "Images Small"
+msgstr ""
+
+#: framework/options/options.config.php:169
+msgid "Instagram"
+msgstr ""
+
+#: framework/widgets/widget-vcard.php:270
+msgid "Instagram Account"
+msgstr ""
+
+#: framework/plugins/plugins.php:108
+msgid "Instagram Feed"
+msgstr ""
+
+#: framework/plugins/plugins.php:157
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/plugins/plugins.php:156
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/plugins/plugins.php:158
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/functions/translation.php:38
+#: framework/options/options.config.php:1938
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: framework/options/options.config.php:2199
+msgid "Javscript Code Inside Footer Tag"
+msgstr ""
+
+#: framework/options/options.config.php:2189
+msgid "Javscript Code Inside Header Tag"
+msgstr ""
+
+#. Name of the theme
+msgid "kolaso"
+msgstr ""
+
+#: framework/plugins/plugins.php:64
+msgid "Kolaso Core"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"kolaso is pixel perfect multi purpose WordPress Theme based on Visual "
+"Composer &amp; designed with great attention to details, flexibility and "
+"performance."
+msgstr ""
+
+#: framework/options/options.config.php:1561
+msgid "Layout"
+msgstr ""
+
+#: framework/options/options.config.php:1024
+#: framework/options/options.config.php:1136
+msgid "Layout Options"
+msgstr ""
+
+#: framework/functions/translation.php:51
+#: framework/options/options.config.php:2014
+msgid "Leave a comment"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:72
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: framework/options/options.config.php:934
+msgid "Left Alignment"
+msgstr ""
+
+#: framework/options/metabox.config.php:415
+msgid "Link"
+msgstr ""
+
+#: framework/options/options.config.php:554
+#: framework/options/options.config.php:703
+#: framework/options/options.config.php:881
+msgid "Link Color"
+msgstr ""
+
+#: framework/functions/walker.fun.php:250
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: framework/options/metabox.config.php:579
+msgid "Link Text"
+msgstr ""
+
+#: framework/options/metabox.config.php:585
+msgid "Link URL"
+msgstr ""
+
+#: framework/options/options.config.php:164
+#: framework/options/options.config.php:1204
+msgid "Linkedin"
+msgstr ""
+
+#: framework/options/metabox.config.php:389
+#: framework/widgets/widget-vcard.php:265
+msgid "Linkedin Account"
+msgstr ""
+
+#: framework/options/options.config.php:1114
+#: framework/options/options.config.php:1331
+msgid "Load More Button"
+msgstr ""
+
+#: framework/options/metabox.config.php:257
+msgid "Location / Link Name"
+msgstr ""
+
+#: framework/functions/translation.php:70
+#: framework/options/options.config.php:2140
+msgid "Location:"
+msgstr ""
+
+#: framework/options/options.config.php:367
+msgid "Logo"
+msgstr ""
+
+#: framework/options/options.config.php:372
+msgid "Logo Area"
+msgstr ""
+
+#: framework/options/options.config.php:383
+msgid "Logo Dark"
+msgstr ""
+
+#: framework/options/options.config.php:399
+msgid "Logo Dimensions"
+msgstr ""
+
+#: framework/options/options.config.php:391
+msgid "Logo Light"
+msgstr ""
+
+#: framework/options/options.config.php:360
+msgid "Logo Settings"
+msgstr ""
+
+#: framework/widgets/widget-vcard.php:232
+msgid "Logo URL:"
+msgstr ""
+
+#: framework/options/metabox.config.php:506
+msgid "M4A"
+msgstr ""
+
+#: framework/plugins/plugins.php:114
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: framework/options/options.config.php:36
+msgid "Main Settings"
+msgstr ""
+
+#: framework/functions/admin.fun.php:54
+msgid "Main Sidebar"
+msgstr ""
+
+#: framework/options/metabox.config.php:271
+#: framework/options/options.config.php:1364
+msgid "Masonry Big"
+msgstr ""
+
+#: framework/options/metabox.config.php:272
+#: framework/options/options.config.php:1365
+msgid "Masonry Small"
+msgstr ""
+
+#: framework/options/options.config.php:118
+msgid "Material Snake Loader"
+msgstr ""
+
+#: framework/options/options.config.php:1150
+msgid "Meta Options"
+msgstr ""
+
+#: framework/options/options.config.php:1374
+msgid "Metadata"
+msgstr ""
+
+#: framework/functions/walker.fun.php:264
+msgid "Move"
+msgstr ""
+
+#: framework/functions/walker.fun.php:206
+msgid "Move down"
+msgstr ""
+
+#: framework/functions/walker.fun.php:193
+msgid "Move up"
+msgstr ""
+
+#: framework/options/metabox.config.php:505
+msgid "MP3"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:40
+msgid "N/A"
+msgid_plural "Categories:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:77
+msgid "Name"
+msgstr ""
+
+#: framework/functions/translation.php:60
+#: framework/options/options.config.php:2077
+msgid "Name *"
+msgstr ""
+
+#: framework/options/options.config.php:433
+msgid "Navigation"
+msgstr ""
+
+#: framework/options/options.config.php:446
+msgid "Navigation Color"
+msgstr ""
+
+#: framework/functions/walker.fun.php:226
+msgid "Navigation Label"
+msgstr ""
+
+#: framework/options/options.config.php:321
+msgid "Navigation Module Options"
+msgstr ""
+
+#: framework/options/options.config.php:440
+msgid "Navigation styling ( First Level )"
+msgstr ""
+
+#: framework/functions/walker.fun.php:321
+#: framework/functions/walker.fun.php:652
+msgid "New"
+msgstr ""
+
+#: framework/functions/translation.php:56
+#: framework/options/options.config.php:2049
+msgid "Newer Comments"
+msgstr ""
+
+#: framework/functions/translation.php:46
+#: framework/options/options.config.php:1987
+msgid "Next Article"
+msgstr ""
+
+#: framework/functions/translation.php:74
+#: framework/options/options.config.php:2168
+msgid "Next Project"
+msgstr ""
+
+#: framework/plugins/plugins.php:209
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: framework/functions/translation.php:53
+#: framework/options/options.config.php:2028
+msgid "No Comment"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:79
+msgid "No products in the cart."
+msgstr ""
+
+#: woocommerce/loop/no-products-found.php:24
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: framework/widgets/widget-posts.php:199
+msgid "None"
+msgstr ""
+
+#: framework/widgets/widget-posts.php:218
+msgid "None Meta"
+msgstr ""
+
+#: framework/widgets/widget-posts.php:181
+msgid "None Thumbinal"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:97
+msgid "Not that bad"
+msgstr ""
+
+#: framework/functions/translation.php:37
+#: framework/options/options.config.php:1869
+msgid "Nothing Found"
+msgstr ""
+
+#: framework/widgets/widget-posts.php:205
+#: framework/widgets/widget-posts.php:215
+msgid "Number of Comments"
+msgstr ""
+
+#: framework/widgets/widget-portfolio.php:138
+msgid "Number Of Items Show:"
+msgstr ""
+
+#: framework/widgets/widget-posts.php:169
+msgid "Number Of Posts Show:"
+msgstr ""
+
+#: framework/options/options.config.php:1115
+#: framework/options/options.config.php:1332
+msgid "Number Pagination"
+msgstr ""
+
+#: framework/options/metabox.config.php:507
+msgid "OGG"
+msgstr ""
+
+#: framework/functions/translation.php:55
+#: framework/options/options.config.php:2042
+msgid "Older Comments"
+msgstr ""
+
+#: framework/functions/translation.php:52
+#: framework/options/options.config.php:2021
+msgid "One Comment"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:111
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+
+#: framework/functions/walker.fun.php:239
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: framework/functions/walker.fun.php:336
+msgid "Open Sub Menu On The Left"
+msgstr ""
+
+#: framework/widgets/widget-posts.php:197
+msgid "Order By:"
+msgstr ""
+
+#: framework/widgets/widget-posts.php:188
+msgid "Order:"
+msgstr ""
+
+#: framework/functions/walker.fun.php:360
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:28
+msgid "Other Details"
+msgstr ""
+
+#: framework/options/metabox.config.php:158
+#: framework/options/options.config.php:662
+msgid "Overlay Color"
+msgstr ""
+
+#: framework/options/options.config.php:669
+#: framework/options/options.config.php:887
+msgid "Padding"
+msgstr ""
+
+#: framework/options/options.config.php:1719
+msgid "Page 404"
+msgstr ""
+
+#: framework/options/options.config.php:114
+msgid "Page Loader Style"
+msgstr ""
+
+#: framework/functions/translation.php:20
+#: framework/options/options.config.php:1808
+#: framework/options/options.config.php:1828
+msgid "Page Not Found"
+msgstr ""
+
+#: framework/options/options.config.php:102
+msgid "Page Preloading"
+msgstr ""
+
+#: framework/options/options.config.php:690
+msgid "Page Title Breadcrumb"
+msgstr ""
+
+#: framework/options/options.config.php:637
+#: framework/options/options.config.php:984
+#: framework/options/options.config.php:1266
+#: framework/options/options.config.php:1469
+msgid "Page Title Layout"
+msgstr ""
+
+#: framework/options/options.config.php:632
+msgid "Page Title Layout Options"
+msgstr ""
+
+#: framework/options/options.config.php:625
+#: framework/options/options.config.php:978
+#: framework/options/options.config.php:1260
+#: framework/options/options.config.php:1463
+msgid "Page Title Options"
+msgstr ""
+
+#: framework/functions/translation.php:47
+#: framework/options/options.config.php:1994
+msgid "Pages:"
+msgstr ""
+
+#: framework/options/options.config.php:1107
+msgid "Pagination Options"
+msgstr ""
+
+#: framework/options/options.config.php:1112
+#: framework/options/options.config.php:1329
+msgid "Pagination Type"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:94
+msgid "Perfect"
+msgstr ""
+
+#: framework/options/options.config.php:569
+msgid "Phone Number"
+msgstr ""
+
+#: framework/widgets/widget-contact.php:117
+msgid "Phone Number:"
+msgstr ""
+
+#: framework/widgets/widget-contact.php:56
+msgid "Phone:"
+msgstr ""
+
+#: framework/options/options.config.php:196
+msgid "Pinterest"
+msgstr ""
+
+#: framework/widgets/widget-vcard.php:290
+msgid "Pinterest Account"
+msgstr ""
+
+#: framework/options/options.config.php:90
+msgid "Placeholder Image"
+msgstr ""
+
+#: framework/plugins/plugins.php:214
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: framework/plugins/plugins.php:207
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/plugins/plugins.php:210
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: framework/options/options.config.php:2112
+#: framework/options/options.config.php:2119
+msgid "Portfolio"
+msgstr ""
+
+#: framework/functions/translation.php:67
+msgid "portfolio"
+msgstr ""
+
+#: framework/options/options.config.php:1298
+msgid "Portfolio Archive"
+msgstr ""
+
+#: framework/options/options.config.php:1253
+msgid "Portfolio Base"
+msgstr ""
+
+#: framework/options/options.config.php:1310
+msgid "Portfolio Gallery"
+msgstr ""
+
+#: framework/options/options.config.php:1308
+msgid "Portfolio Grid"
+msgstr ""
+
+#: framework/options/options.config.php:1245
+msgid "Portfolio Options"
+msgstr ""
+
+#: framework/options/options.config.php:1346
+msgid "Portfolio Single"
+msgstr ""
+
+#: framework/options/options.config.php:1309
+msgid "Portfolio Standard"
+msgstr ""
+
+#: framework/options/metabox.config.php:343
+msgid "Position"
+msgstr ""
+
+#: framework/options/metabox.config.php:307
+msgid "Position / Company"
+msgstr ""
+
+#: framework/functions/single.fun.php:19
+#, php-format
+msgctxt "post author"
+msgid "%s"
+msgstr ""
+
+#: framework/options/options.config.php:1063
+msgid "Post Content Limit"
+msgstr ""
+
+#: framework/functions/single.fun.php:230
+#: framework/functions/single.fun.php:256
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#: framework/functions/single.fun.php:224
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: framework/widgets/widget-posts.php:200
+msgid "Post ID"
+msgstr ""
+
+#: framework/options/options.config.php:1050
+msgid "Post Options"
+msgstr ""
+
+#: framework/options/options.config.php:1056
+msgid "Post Title Limit"
+msgstr ""
+
+#: framework/options/options.config.php:1040
+msgid "Posts Style"
+msgstr ""
+
+#: framework/options/options.config.php:1116
+#: framework/options/options.config.php:1333
+msgid "Previous / Next Button"
+msgstr ""
+
+#: framework/functions/translation.php:45
+#: framework/options/options.config.php:1980
+msgid "Previous Article"
+msgstr ""
+
+#: framework/functions/translation.php:73
+#: framework/options/options.config.php:2161
+msgid "Previous Project"
+msgstr ""
+
+#: woocommerce/cart/cart.php:29 woocommerce/cart/cart.php:89
+msgid "Price"
+msgstr ""
+
+#: framework/options/options.config.php:1638
+msgid "Primary Color"
+msgstr ""
+
+#: framework/functions/admin.fun.php:28
+msgid "Primary Navigation"
+msgstr ""
+
+#: woocommerce/cart/cart.php:28 woocommerce/cart/cart.php:51
+msgid "Product"
+msgstr ""
+
+#: framework/options/options.config.php:1522
+#: framework/options/options.config.php:1754
+msgid "Product Column"
+msgstr ""
+
+#: framework/options/options.config.php:1533
+msgid "Product per page"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:30
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: framework/functions/translation.php:34
+#: framework/options/options.config.php:1917
+msgid "Products"
+msgstr ""
+
+#: woocommerce/cart/cart.php:30 woocommerce/cart/cart.php:95
+#: woocommerce/global/quantity-input.php:28
+msgid "Quantity"
+msgstr ""
+
+#: framework/options/metabox.config.php:440
+msgid "Quote Content"
+msgstr ""
+
+#: framework/widgets/widget-posts.php:204
+msgid "Random"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:93
+msgid "Rate&hellip;"
+msgstr ""
+
+#: framework/functions/translation.php:36
+#: framework/options/options.config.php:1931
+msgid "Read More"
+msgstr ""
+
+#: framework/widgets/widget-posts.php:216
+msgid "Read Time"
+msgstr ""
+
+#: framework/options/options.config.php:1173
+msgid "Reading Time"
+msgstr ""
+
+#: framework/functions/translation.php:43
+#: framework/options/options.config.php:1966
+msgid "Related Articles"
+msgstr ""
+
+#: woocommerce/single-product/related.php:31
+msgid "Related products"
+msgstr ""
+
+#: framework/functions/walker.fun.php:373
+msgid "Remove"
+msgstr ""
+
+#: framework/options/options.config.php:316
+msgid "Remove Bordered Bottom"
+msgstr ""
+
+#: framework/options/metabox.config.php:23
+msgid "Remove Content Padding"
+msgstr ""
+
+#: framework/functions/walker.fun.php:351
+msgid "Remove Link"
+msgstr ""
+
+#: woocommerce/cart/cart.php:82 woocommerce/cart/mini-cart.php:47
+msgid "Remove this item"
+msgstr ""
+
+#: framework/functions/translation.php:58
+#: framework/options/options.config.php:2063
+msgid "Reply"
+msgstr ""
+
+#: framework/plugins/plugins.php:206
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:36
+msgid "Reviews"
+msgstr ""
+
+#: framework/plugins/plugins.php:89
+msgid "Revolution Slider"
+msgstr ""
+
+#: framework/options/options.config.php:933
+msgid "Right Alignment"
+msgstr ""
+
+#: framework/options/options.config.php:922
+msgid "Rounded"
+msgstr ""
+
+#: framework/options/options.config.php:174
+msgid "RSS"
+msgstr ""
+
+#: framework/widgets/widget-vcard.php:275
+msgid "Rss Account"
+msgstr ""
+
+#: framework/functions/translation.php:23
+#: framework/options/options.config.php:1835
+msgid "Search"
+msgstr ""
+
+#: framework/options/options.config.php:1841
+msgid "search"
+msgstr ""
+
+#: framework/options/options.config.php:1757
+msgid "Search Box"
+msgstr ""
+
+#: framework/functions/translation.php:24
+#: framework/options/options.config.php:1848
+msgid "Search for:"
+msgstr ""
+
+#: framework/functions/translation.php:25
+#: framework/options/options.config.php:1855
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: framework/options/options.config.php:1006
+#: framework/options/options.config.php:1287
+#: framework/options/options.config.php:1491
+msgid "Select a page"
+msgstr ""
+
+#: framework/options/options.config.php:1140
+msgid "Select Layout"
+msgstr ""
+
+#: framework/options/options.config.php:1004
+#: framework/options/options.config.php:1285
+#: framework/options/options.config.php:1489
+msgid "Select Main Page"
+msgstr ""
+
+#: framework/options/options.config.php:1168
+msgid "Select Meta Data"
+msgstr ""
+
+#: framework/options/options.config.php:1198
+msgid "Select Share Network"
+msgstr ""
+
+#: framework/widgets/widget-vcard.php:242
+msgid "Select Social Account To Display:"
+msgstr ""
+
+#: framework/functions/translation.php:44
+#: framework/options/options.config.php:1973
+msgid "Share"
+msgstr ""
+
+#: woocommerce/single-product/share.php:29
+msgid "Share Product"
+msgstr ""
+
+#: framework/functions/translation.php:68
+#: framework/options/options.config.php:2126
+msgid "Share:"
+msgstr ""
+
+#: framework/functions/translation.php:33
+#: framework/options/options.config.php:1910
+msgid "Shop"
+msgstr ""
+
+#: framework/options/options.config.php:1437
+msgid "Shop Base"
+msgstr ""
+
+#: framework/functions/translation.php:14
+#: framework/options/options.config.php:1801
+msgid "Shop Cart"
+msgstr ""
+
+#: framework/options/options.config.php:1429
+msgid "Shop Options"
+msgstr ""
+
+#: framework/options/options.config.php:1548
+msgid "Shop Product"
+msgstr ""
+
+#: framework/functions/translation.php:35
+#: framework/options/options.config.php:1502
+#: framework/options/options.config.php:1924
+msgid "Shop Products"
+msgstr ""
+
+#: framework/options/options.config.php:334
+msgid "Show Cart"
+msgstr ""
+
+#: framework/options/options.config.php:510
+msgid "Show Copyrights"
+msgstr ""
+
+#: framework/options/options.config.php:348
+msgid "Show Get In Touch Button"
+msgstr ""
+
+#: framework/options/options.config.php:327
+msgid "Show Search"
+msgstr ""
+
+#: framework/options/options.config.php:341
+msgid "Show SideArea"
+msgstr ""
+
+#: framework/options/options.config.php:517
+msgid "Show Social"
+msgstr ""
+
+#: framework/functions/admin.fun.php:64 framework/functions/translation.php:13
+#: framework/options/options.config.php:1795
+msgid "Side Area"
+msgstr ""
+
+#: framework/options/options.config.php:490
+msgid "Side Area Options"
+msgstr ""
+
+#: framework/options/options.config.php:1028
+msgid "Sidebar Layout"
+msgstr ""
+
+#: framework/options/options.config.php:1359
+msgid "Single Layout"
+msgstr ""
+
+#: framework/options/options.config.php:1946
+msgid "Single Post"
+msgstr ""
+
+#: framework/options/options.config.php:414
+msgid "Site Icon"
+msgstr ""
+
+#: framework/options/options.config.php:375
+msgid "Site Title"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:35
+msgid "SKU:"
+msgstr ""
+
+#: framework/options/options.config.php:190
+msgid "Skype"
+msgstr ""
+
+#: framework/widgets/widget-vcard.php:309
+msgid "Skype Account"
+msgstr ""
+
+#: framework/options/metabox.config.php:273
+#: framework/options/options.config.php:1366
+msgid "Slider Big"
+msgstr ""
+
+#: framework/options/metabox.config.php:274
+#: framework/options/options.config.php:1367
+msgid "Slider Small"
+msgstr ""
+
+#: framework/widgets/widget-posts.php:180
+msgid "Small Thumbinal"
+msgstr ""
+
+#: framework/options/metabox.config.php:360
+msgid "Social Accounts"
+msgstr ""
+
+#: framework/options/options.config.php:579
+msgid "Social Module Options"
+msgstr ""
+
+#: framework/options/options.config.php:136
+msgid "Social Network"
+msgstr ""
+
+#: framework/plugins/plugins.php:160
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/functions/translation.php:27
+#: framework/options/options.config.php:1876
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: framework/options/options.config.php:226
+msgid "Soundcloud"
+msgstr ""
+
+#: framework/options/metabox.config.php:494
+msgid "Soundcloud / Iframe"
+msgstr ""
+
+#: framework/widgets/widget-vcard.php:319
+msgid "Soundcloud Account"
+msgstr ""
+
+#: framework/options/options.config.php:122
+msgid "Spinner Bounce"
+msgstr ""
+
+#: framework/options/options.config.php:121
+msgid "Spinner Dots"
+msgstr ""
+
+#: framework/options/options.config.php:123
+msgid "Spinner Rotate"
+msgstr ""
+
+#: framework/options/options.config.php:220
+msgid "Spotify"
+msgstr ""
+
+#: framework/widgets/widget-vcard.php:314
+msgid "Spotify Account"
+msgstr ""
+
+#: framework/options/options.config.php:921
+msgid "Square"
+msgstr ""
+
+#: framework/options/options.config.php:117
+msgid "Squre Spinner"
+msgstr ""
+
+#: framework/options/options.config.php:1043
+msgid "Standard Style"
+msgstr ""
+
+#: framework/options/options.config.php:1620
+msgid "Styling"
+msgstr ""
+
+#: framework/options/options.config.php:1627
+msgid "Styling Settings"
+msgstr ""
+
+#: framework/functions/walker.fun.php:178
+msgid "sub item"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:82
+msgid "Submit"
+msgstr ""
+
+#: woocommerce/cart/mini-cart.php:71
+msgid "Subtotal"
+msgstr ""
+
+#: woocommerce/single-product/meta.php:50
+msgid "Tag:"
+msgid_plural "Tags:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/translation.php:32
+#: framework/options/options.config.php:1903
+msgid "Tag: "
+msgstr ""
+
+#: framework/options/options.config.php:407
+msgid "Text"
+msgstr ""
+
+#: framework/options/options.config.php:548
+#: framework/options/options.config.php:875
+msgid "Text Color"
+msgstr ""
+
+#: framework/functions/walker.fun.php:258
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: framework/plugins/plugins.php:171
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins.php:208
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: framework/plugins/plugins.php:186
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins.php:181
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/functions/translation.php:19
+msgid "The page you were looking for doesn't appear to exist."
+msgstr ""
+
+#: framework/options/options.config.php:421
+msgid ""
+"The Site Icon is used as a browser and app icon for your site. Icons must be "
+"square, and at least 512 pixels wide and tall."
+msgstr ""
+
+#: framework/options/options.config.php:14
+msgid "Theme Options"
+msgstr ""
+
+#: framework/functions/walker.fun.php:287
+msgid "Themify Icons"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:58
+msgid "There are no reviews yet."
+msgstr ""
+
+#: framework/plugins/plugins.php:213
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: framework/plugins/plugins.php:176
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/options/options.config.php:857
+msgid ""
+"These shortcode can be included above and will be replaced in forntend.<br>"
+"[year] [year-from-to] [copy] [site] [name] [developer]"
+msgstr ""
+
+#: framework/plugins/plugins.php:166
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/plugins/plugins.php:161
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/widgets/widget-posts.php:177
+msgid "Thumbinals Display:"
+msgstr ""
+
+#: framework/options/options.config.php:1731
+msgid "Title"
+msgstr ""
+
+#: framework/widgets/widget-posts.php:201
+msgid "Title (Alphabetically)"
+msgstr ""
+
+#: framework/functions/walker.fun.php:232
+msgid "Title Attribute"
+msgstr ""
+
+#: framework/options/options.config.php:677
+msgid "Title Style"
+msgstr ""
+
+#: framework/widgets/widget-audio.php:95
+#: framework/widgets/widget-contact.php:109
+#: framework/widgets/widget-facebook.php:89
+#: framework/widgets/widget-login.php:87
+#: framework/widgets/widget-portfolio.php:130
+#: framework/widgets/widget-posts.php:161
+#: framework/widgets/widget-vcard.php:226 framework/widgets/widget-video.php:95
+msgid "Title:"
+msgstr ""
+
+#: framework/functions/walker.fun.php:269
+msgid "To the top"
+msgstr ""
+
+#: framework/options/options.config.php:529
+msgid "Top Bar"
+msgstr ""
+
+#: framework/functions/admin.fun.php:29
+msgid "Top Navigation"
+msgstr ""
+
+#: framework/options/options.config.php:536
+msgid "TopBar styling"
+msgstr ""
+
+#: woocommerce/cart/cart.php:31 woocommerce/cart/cart.php:113
+msgid "Total"
+msgstr ""
+
+#: framework/options/options.config.php:1771
+msgid "Translation"
+msgstr ""
+
+#: framework/options/options.config.php:214
+msgid "Tripadvisor"
+msgstr ""
+
+#: framework/widgets/widget-vcard.php:304
+msgid "Tripadvisor Account"
+msgstr ""
+
+#: framework/options/options.config.php:208
+msgid "Tumblr"
+msgstr ""
+
+#: framework/widgets/widget-vcard.php:299
+msgid "Tumblr Account"
+msgstr ""
+
+#: framework/options/options.config.php:149
+#: framework/options/options.config.php:1202
+msgid "Twitter"
+msgstr ""
+
+#: framework/options/metabox.config.php:365
+#: framework/widgets/widget-vcard.php:250
+msgid "Twitter Account"
+msgstr ""
+
+#: framework/functions/translation.php:26
+#: framework/options/options.config.php:1862
+msgid "Type Words Then Enter"
+msgstr ""
+
+#: framework/options/options.config.php:1656
+msgid "Typography"
+msgstr ""
+
+#: framework/functions/walker.fun.php:265
+msgid "Up one"
+msgstr ""
+
+#: woocommerce/cart/cart.php:136
+msgid "Update cart"
+msgstr ""
+
+#: framework/plugins/plugins.php:159
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: framework/options/options.config.php:96
+msgid "Upload Image"
+msgstr ""
+
+#: framework/options/options.config.php:374
+#: framework/options/options.config.php:496
+msgid "Upload Logo"
+msgstr ""
+
+#: framework/functions/walker.fun.php:219
+msgid "URL"
+msgstr ""
+
+#: framework/options/options.config.php:711
+msgid ""
+"Use fontawesome icons content \"\\f105\" or html special characters like "
+"\"/\""
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:98
+msgid "Very poor"
+msgstr ""
+
+#: framework/options/metabox.config.php:463
+msgid "Video URL"
+msgstr ""
+
+#: framework/widgets/widget-video.php:103
+msgid "Video URL:"
+msgstr ""
+
+#: framework/widgets/widget-video.php:111
+msgid "Video Width:"
+msgstr ""
+
+#: framework/options/options.config.php:184
+msgid "Vimeo"
+msgstr ""
+
+#: framework/widgets/widget-vcard.php:285
+msgid "Vimeo Account"
+msgstr ""
+
+#: framework/plugins/plugins.php:77
+msgid "Visual Composer"
+msgstr ""
+
+#: framework/options/options.config.php:238
+msgid "VK"
+msgstr ""
+
+#: framework/widgets/widget-vcard.php:334
+msgid "VK Account"
+msgstr ""
+
+#: framework/options/metabox.config.php:508
+msgid "WAV"
+msgstr ""
+
+#: framework/functions/translation.php:62
+#: framework/options/options.config.php:2091
+msgid "Website"
+msgstr ""
+
+#: woocommerce/single-product/product-attributes.php:28
+msgid "Weight"
+msgstr ""
+
+#: framework/widgets/widget-login.php:50
+msgid "Welcome, you are logged,"
+msgstr ""
+
+#: framework/options/options.config.php:811
+msgid "Widget Body"
+msgstr ""
+
+#: framework/options/options.config.php:817
+msgid "Widget Link"
+msgstr ""
+
+#: framework/options/options.config.php:805
+msgid "Widget Title"
+msgstr ""
+
+#: framework/options/metabox.config.php:509
+msgid "WMA"
+msgstr ""
+
+#: framework/plugins/plugins.php:126
+msgid "WooCommerce"
+msgstr ""
+
+#: framework/functions/admin.fun.php:123
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: framework/options/options.config.php:1057
+#: framework/options/options.config.php:1064
+msgid "Word"
+msgstr ""
+
+#: framework/options/options.config.php:244
+msgid "WordPress"
+msgstr ""
+
+#: framework/widgets/widget-vcard.php:324
+msgid "WordPress Account"
+msgstr ""
+
+#: framework/widgets/widget-contact.php:141
+msgid "Work Hours:"
+msgstr ""
+
+#: framework/functions/translation.php:63
+#: framework/options/options.config.php:2098
+msgid "Write your comment here..."
+msgstr ""
+
+#: framework/options/options.config.php:202
+msgid "Yelp"
+msgstr ""
+
+#: framework/widgets/widget-vcard.php:295
+msgid "Yelp Account"
+msgstr ""
+
+#: framework/options/metabox.config.php:24
+#: framework/options/metabox.config.php:32
+#: framework/options/metabox.config.php:96
+#: framework/options/metabox.config.php:128
+#: framework/options/metabox.config.php:186
+msgid "Yes, Please do it."
+msgstr ""
+
+#: framework/options/options.config.php:2248
+msgid "You can save your current options. Download a Backup and Import."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:88
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review."
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:92
+msgid "Your rating"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:102
+msgid "Your review"
+msgstr ""
+
+#: framework/options/options.config.php:154
+msgid "Youtube"
+msgstr ""
+
+#: framework/widgets/widget-vcard.php:255
+msgid "Youtube Account"
+msgstr ""
+
+#. Author of the theme
+msgid "zytheme"
+msgstr ""

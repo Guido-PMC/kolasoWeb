@@ -1,0 +1,368 @@
+/*------------------------------------*\
+    #Plugins
+\*------------------------------------*/
+/* Revolution Slider */
+.custom.tparrows {
+    background: transparent;
+    font-family: "icomoon" !important;
+    font-size: 55px;
+
+
+    &:before {
+        font-family: "icomoon" !important;
+        font-size: 55px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    &:hover {
+        background: transparent;
+
+        &:before {
+            color: $color-white;
+        }
+    }
+
+    &.tp-leftarrow {
+        &:before {
+            content: "\e910";
+        }
+    }
+
+    &.tp-rightarrow {
+        &:before {
+            content: "\e911";
+        }
+    }
+}
+
+.custom {
+    .tp-bullet {
+        height: 5px;
+        width: 5px;
+        @include rounded(50%);
+        background-color: #cdc8c4;
+        border: 3px solid #cdc8c4;
+
+        &:hover,
+        &.selected {
+            border: 3px solid $color-white;
+            background-color: transparent;
+        }
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+    .custom.tparrows {
+        display: none;
+    }
+}
+
+/* Visual Composer */
+.vc_col-has-fill>.vc_column-inner {
+    padding-top: 0;
+}
+
+.bg-parallax .vc_parallax-inner {
+    background-attachment: fixed !important;
+}
+
+.bg-overlay-theme {
+    .vc_parallax-inner {
+        &:before {
+            content: "";
+            display: inline-block;
+            height: 100%;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: -1;
+            background-color: rgba($color-theme, .9);
+        }
+    }
+}
+
+.vc-overlap {
+    overflow: visible !important;
+    z-index: 1;
+}
+
+.wpb_button,
+.wpb_content_element,
+ul.wpb_thumbnails-fluid>li {
+    margin-bottom: 0 !important;
+}
+
+.zyt-row-overlay {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+
+    &:before {
+        content: "" !important;
+        display: block !important;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: inherit;
+    }
+
+    .zy-vc-wrapper {
+        position: relative;
+        z-index: 2;
+    }
+}
+
+.wpb-js-composer .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-title>a {
+    color: $color-heading;
+}
+
+.vc_tta-container {
+    .vc_tta-accordion.vc_tta-style-classic {
+        .vc_tta-panels {
+            .vc_tta-panel {
+
+                border: 1px solid #eaeaea;
+                background-color: $color-white;
+                margin-bottom: 15px;
+                padding: 30px;
+                font-family: $font-body;
+                font-weight: 600;
+                @include rounded(6px);
+                @include prefix (box-shadow, none, moz webkit);
+
+                .vc_tta-panel-heading {
+                    border: none;
+                    background: none;
+
+                    .vc_tta-panel-title {
+
+                        font-family: $font-body;
+
+                        >a {
+
+                            padding: 0;
+                            font-size: 16px;
+                            color: $color-heading;
+                            font-weight: 600;
+                            line-height: 20px;
+                            text-transform: capitalize;
+                            border: none;
+                            background-color: $color-white;
+                            margin-bottom: 0;
+                            @include rounded(0);
+                            @include prefix (box-shadow, none, moz webkit);
+
+                            span {
+                                color: $color-heading;
+                            }
+                        }
+                    }
+
+
+                }
+
+                .vc_tta-panel-body {
+                    padding: 22px 0 6px 0;
+                    background-color: $color-white;
+                    border: none;
+                    font-family: $font-body;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 24px;
+
+                    p {
+                        font-family: $font-body;
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 24px;
+                    }
+                }
+            }
+
+            .vc_tta-controls-icon {
+                height: 10px;
+                width: 10px;
+
+                &:before,
+                &:after {
+                    border-color: $color-theme
+                }
+            }
+
+            .vc_tta-controls-icon-position-right {
+                .vc_tta-controls-icon {
+                    right: 0;
+                }
+            }
+        }
+
+        .vc_active {
+
+            .vc_tta-panel-heading {
+                .vc_tta-controls-icon.vc_tta-controls-icon-plus {
+
+                    &:before,
+                    &:after {
+                        border-color: $color-theme
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) and (max-width : 991px) {
+    .vc_tta-container {
+        .vc_tta-accordion.vc_tta-style-classic {
+            .vc_tta-panels {
+                .vc_tta-panel {
+                    padding: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+/* Contact Form 7 */
+.wpcf7 {
+
+    form {
+        margin-bottom: 0;
+    }
+
+    .wpcf7-form-control-wrap {
+        margin-bottom: 30px;
+        display: block;
+
+        input {
+            width: 100%;
+            margin-bottom: 0;
+        }
+    }
+
+    textarea {
+        width: 100%;
+        height: 122px;
+        margin-bottom: 0;
+    }
+
+    .wpcf7-submit {
+        margin-bottom: 0;
+    }
+
+    span.wpcf7-not-valid-tip {
+        margin-top: 5px;
+    }
+}
+
+/* MailChimp for WordPress */
+.mc4wp-alert {
+    margin-top: 10px;
+    padding: 10px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.mc4wp-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    text-align: center;
+}
+
+.mc4wp-notice {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.mc4wp-alert p,
+.mc4wp-response p {
+    color: #282828;
+    margin-bottom: 0;
+}
+
+/* Instagram Feed */
+#sb_instagram {
+
+    .sbi_photo {
+        position: relative;
+
+        &:before {
+            background-color: rgba($color-theme, 0.9);
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            content: "";
+            height: 100%;
+            position: absolute;
+            opacity: 0;
+            @include transition(all 300ms linear);
+        }
+
+        &:after {
+            content: "\f16d";
+            font-family: FontAwesome;
+            position: absolute;
+            display: inline-block;
+            top: 50%;
+            left: 50%;
+            opacity: 0;
+            font-size: 16px;
+            font-weight: 400;
+            @include transition(all 300ms linear);
+            @include prefix(transform, translate(-50%, -50%), webkit moz ms o);
+            color: $color-white;
+        }
+
+        &:hover {
+
+            &:before,
+            &:after {
+                opacity: 1;
+            }
+        }
+    }
+
+}
+
+/* Twitter Feeds */
+
+#ctf {
+    p.ctf-tweet-text {
+        position: relative;
+        font-size: 12px;
+
+        &:before {
+            content: "\f099";
+            font-family: FontAwesome;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            color: $color-theme;
+            width: 13px;
+            height: 12px;
+            float: left;
+            margin-right: 10px;
+        }
+    }
+
+    .ctf-item {
+        padding: 5px 0;
+        border-top-color: rgba($color-body, 0.2);
+
+        &:first-of-type {
+            padding-top: 0
+        }
+    }
+}

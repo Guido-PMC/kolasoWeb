@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url('kolaso.eot?fmosqg');
+  src: url('kolaso.eot?fmosqg#iefix') format('embedded-opentype'),
+    url('kolaso.ttf?fmosqg') format('truetype'),
+    url('kolaso.woff?fmosqg') format('woff'),
+    url('kolaso.svg?fmosqg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i[class^="kolaso-"],
+i[class*=" kolaso-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.kolaso-Coins:before {
+  content: "\e900";
+}
+
+.kolaso-cross:before {
+  content: "\e901";
+}
+
+.kolaso-Fingerprint:before {
+  content: "\e902";
+}
+
+.kolaso-Gear:before {
+  content: "\e903";
+}
+
+.kolaso-Globe:before {
+  content: "\e904";
+}
+
+.kolaso-Mail:before {
+  content: "\e905";
+}
+
+.kolaso-Newspaper:before {
+  content: "\e906";
+}
+
+.kolaso-Paint:before {
+  content: "\e907";
+}
+
+.kolaso-Play-Icon:before {
+  content: "\e908";
+}
+
+.kolaso-Printer:before {
+  content: "\e909";
+}
+
+.kolaso-Quote:before {
+  content: "\e90a";
+}
+
+.kolaso-Quote2:before {
+  content: "\e90b";
+}
+
+.kolaso-Search:before {
+  content: "\e90c";
+}
+
+.kolaso-Side:before {
+  content: "\e90d";
+}
+
+.kolaso-Support:before {
+  content: "\e90e";
+}
+
+.kolaso-Arrow-left:before {
+  content: "\e910";
+}
+
+.kolaso-Arrow-right:before {
+  content: "\e911";
+}
+
+.kolaso-Astronaut-Icon:before {
+  content: "\e912";
+}
+
+.kolaso-Cart:before {
+  content: "\e913";
+}

@@ -1,0 +1,866 @@
+body,
+html {
+    direction: rtl
+}
+
+body,
+caption {
+    text-align: right;
+}
+
+.form-control,
+input,
+select,
+textarea {
+    padding-right: 20px;
+    padding-left: 0;
+    text-align: right;
+}
+
+div.wpcf7 .ajax-loader {
+    float: left;
+}
+
+/* Grid RTL */
+.offset-1,
+.offset-10,
+.offset-11,
+.offset-2,
+.offset-3,
+.offset-4,
+.offset-5,
+.offset-7,
+.offset-8,
+.offset-9 {
+    margin-left: 0
+}
+
+.offset-1 {
+    margin-right: 8.333333%
+}
+
+.offset-2 {
+    margin-right: 16.666667%
+}
+
+.offset-3 {
+    margin-right: 25%
+}
+
+.offset-4 {
+    margin-right: 33.333333%
+}
+
+.offset-5 {
+    margin-right: 41.666667%
+}
+
+.offset-6 {
+    margin-right: 50%;
+    margin-left: 0
+}
+
+.offset-7 {
+    margin-right: 58.333333%
+}
+
+.offset-8 {
+    margin-right: 66.666667%
+}
+
+.offset-9 {
+    margin-right: 75%
+}
+
+.offset-10 {
+    margin-right: 83.333333%
+}
+
+.offset-11 {
+    margin-right: 91.666667%
+}
+
+@media (min-width:576px) {
+    .offset-sm-0 {
+        margin-right: 0
+    }
+
+    .offset-sm-1 {
+        margin-right: 8.333333%;
+        margin-left: 0
+    }
+
+    .offset-sm-2 {
+        margin-right: 16.666667%;
+        margin-left: 0
+    }
+
+    .offset-sm-3 {
+        margin-right: 25%;
+        margin-left: 0
+    }
+
+    .offset-sm-4 {
+        margin-right: 33.333333%;
+        margin-left: 0
+    }
+
+    .offset-sm-5 {
+        margin-right: 41.666667%;
+        margin-left: 0
+    }
+
+    .offset-sm-6 {
+        margin-right: 50%;
+        margin-left: 0
+    }
+
+    .offset-sm-7 {
+        margin-right: 58.333333%;
+        margin-left: 0
+    }
+
+    .offset-sm-8 {
+        margin-right: 66.666667%;
+        margin-left: 0
+    }
+
+    .offset-sm-9 {
+        margin-right: 75%;
+        margin-left: 0
+    }
+
+    .offset-sm-10 {
+        margin-right: 83.333333%;
+        margin-left: 0
+    }
+
+    .offset-sm-11 {
+        margin-right: 91.666667%;
+        margin-left: 0
+    }
+}
+
+@media (min-width:768px) {
+    .offset-md-0 {
+        margin-right: 0
+    }
+
+    .offset-md-1 {
+        margin-right: 8.333333%;
+        margin-left: 0
+    }
+
+    .offset-md-2 {
+        margin-right: 16.666667%;
+        margin-left: 0
+    }
+
+    .offset-md-3 {
+        margin-right: 25%;
+        margin-left: 0
+    }
+
+    .offset-md-4 {
+        margin-right: 33.333333%;
+        margin-left: 0
+    }
+
+    .offset-md-5 {
+        margin-right: 41.666667%;
+        margin-left: 0
+    }
+
+    .offset-md-6 {
+        margin-right: 50%;
+        margin-left: 0
+    }
+
+    .offset-md-7 {
+        margin-right: 58.333333%;
+        margin-left: 0
+    }
+
+    .offset-md-8 {
+        margin-right: 66.666667%;
+        margin-left: 0
+    }
+
+    .offset-md-9 {
+        margin-right: 75%;
+        margin-left: 0
+    }
+
+    .offset-md-10 {
+        margin-right: 83.333333%;
+        margin-left: 0
+    }
+
+    .offset-md-11 {
+        margin-right: 91.666667%;
+        margin-left: 0
+    }
+}
+
+@media (min-width:992px) {
+    .offset-lg-0 {
+        margin-right: 0
+    }
+
+    .offset-lg-1 {
+        margin-right: 8.333333%;
+        margin-left: 0
+    }
+
+    .offset-lg-2 {
+        margin-right: 16.666667%;
+        margin-left: 0
+    }
+
+    .offset-lg-3 {
+        margin-right: 25%;
+        margin-left: 0
+    }
+
+    .offset-lg-4 {
+        margin-right: 33.333333%;
+        margin-left: 0
+    }
+
+    .offset-lg-5 {
+        margin-right: 41.666667%;
+        margin-left: 0
+    }
+
+    .offset-lg-6 {
+        margin-right: 50%;
+        margin-left: 0
+    }
+
+    .offset-lg-7 {
+        margin-right: 58.333333%;
+        margin-left: 0
+    }
+
+    .offset-lg-8 {
+        margin-right: 66.666667%;
+        margin-left: 0
+    }
+
+    .offset-lg-9 {
+        margin-right: 75%;
+        margin-left: 0
+    }
+
+    .offset-lg-10 {
+        margin-right: 83.333333%;
+        margin-left: 0
+    }
+
+    .offset-lg-11 {
+        margin-right: 91.666667%;
+        margin-left: 0
+    }
+}
+
+@media (min-width:1200px) {
+    .offset-xl-0 {
+        margin-right: 0
+    }
+
+    .offset-xl-1 {
+        margin-right: 8.333333%;
+        margin-left: 0
+    }
+
+    .offset-xl-2 {
+        margin-right: 16.666667%;
+        margin-left: 0
+    }
+
+    .offset-xl-3 {
+        margin-right: 25%;
+        margin-left: 0
+    }
+
+    .offset-xl-4 {
+        margin-right: 33.333333%;
+        margin-left: 0
+    }
+
+    .offset-xl-5 {
+        margin-right: 41.666667%;
+        margin-left: 0
+    }
+
+    .offset-xl-6 {
+        margin-right: 50%;
+        margin-left: 0
+    }
+
+    .offset-xl-7 {
+        margin-right: 58.333333%;
+        margin-left: 0
+    }
+
+    .offset-xl-8 {
+        margin-right: 66.666667%;
+        margin-left: 0
+    }
+
+    .offset-xl-9 {
+        margin-right: 75%;
+        margin-left: 0
+    }
+
+    .offset-xl-10 {
+        margin-right: 83.333333%;
+        margin-left: 0
+    }
+
+    .offset-xl-11 {
+        margin-right: 91.666667%;
+        margin-left: 0
+    }
+}
+
+
+/* Header RTL */
+.navbar-nav>li {
+    margin-left: 30px;
+    margin-right: 0;
+}
+
+.navbar-nav>li:last-child {
+    margin-left: 0;
+}
+
+ul.dropdown-menu li>a:active,
+ul.dropdown-menu li>a:focus,
+ul.dropdown-menu li>a:hover,
+ul.mega-menu li a:active,
+ul.mega-menu li a:focus,
+ul.mega-menu li a:hover {
+    padding-right: 10px;
+    padding-left: 0;
+}
+
+.navbar-nav>li.menu-item-has-children>.dropdown-toggle:before {
+    right: 0;
+    left: auto;
+}
+
+li.menu-item-has-children>ul.dropdown-menu>li.dropdown-submenu>a:before,
+ul.dropdown-menu>li.menu-item-has-children>a:before {
+    content: "\f104";
+    left: 25px;
+    right: auto
+}
+
+.has-mega-menu .dropdown-menu li ul li a i {
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+.module .module-icon {
+    margin-left: 20px;
+    margin-right: 0;
+}
+
+.module:last-of-type .module-icon {
+    margin-left: 0;
+}
+
+.module .module-box {
+    left: 0;
+    right: auto;
+}
+
+.module-warp {
+    text-align: right;
+}
+
+.navbar-nav>li.has-dropdown>ul.dropdown-menu,
+.navbar-nav>li.has-dropdown>ul.mega-menu,
+li.dropdown-submenu>ul.mega-menu,
+ul.dropdown-menu>li,
+ul.mega-menu>li {
+    text-align: right;
+}
+
+@media (min-width: 768px) {
+
+    .navbar-left {
+        float: right !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    .navbar .module:first-of-type {
+        margin-left: 0;
+        margin-right: 32px;
+    }
+
+    li.dropdown-submenu>ul.mega-menu,
+    li.menu-item-has-children>ul.dropdown-menu>li.dropdown-submenu>ul.dropdown-menu {
+        left: auto;
+        right: 100%
+    }
+
+    .navbar-nav>li.has-dropdown>ul.dropdown-menu,
+    .navbar-nav>li.has-dropdown>ul.mega-menu,
+    li.dropdown-submenu>ul.mega-menu {
+        left: auto;
+        right: 0;
+        text-align: right;
+    }
+}
+
+.pull-left {
+    float: right;
+}
+
+.fa-pull-right,
+.pull-right {
+    float: left;
+}
+
+.navbar-nav.ml-auto {
+    margin-left: inherit !important;
+    margin-right: auto !important;
+}
+
+/* Blog RTL */
+.blog-grid .blog-entry .entry-more span,
+.blog-standard .blog-entry .entry-more a span {
+    margin-left: 0;
+    margin-right: 8px;
+}
+
+.blog-grid .blog-entry .entry-cat {
+    left: auto;
+    right: 30px;
+}
+
+.pagination-nav .pagination .nav-links a.next,
+.pagination-nav .pagination .nav-links a.prev,
+.blog-standard .blog-entry .entry-more i,
+.blog-grid .blog-entry .entry-more a i,
+.blog-textual .blog-entry .entry-more a i {
+    transform: rotate(180deg);
+}
+
+.entry-meta .entry-author,
+.entry-meta .entry-comments,
+.entry-meta .entry-cat,
+.entry-meta .entry-date,
+.entry-meta .entry-read {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.entry-meta .entry-author img {
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+.blog-single .author-box .author-desc a {
+    margin-right: 0;
+    margin-left: 25px;
+}
+
+.blog-single .entry-related .blog-entry .entry-cat {
+    left: 0;
+    right: 15px;
+}
+
+.blog-single .author-box img {
+    right: 0;
+    left: auto;
+}
+
+.blog-single .author-box .author-desc {
+    padding-left: 0;
+    padding-right: 120px;
+}
+
+/* Widgets RTL */
+.widget_tag_cloud a,
+.widget_product_tag_cloud a {
+    margin-right: 0;
+    margin-left: 9px;
+}
+
+.widget_categories ul li {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+.widget_categories ul li a:before {
+    right: -15px;
+    left: 0;
+}
+
+/* Portfolio RTL */
+.portfolio-item .portfolio-zoom a {
+    left: auto;
+    right: 40px;
+}
+
+.portfolio-grid .portfolio-item .portfolio-content {
+    text-align: right;
+    left: auto;
+    right: 40px;
+}
+
+.portfolio-single .portfolio-content {
+    text-align: right;
+}
+
+.portfolio-prev-next .portfolio-prev .portfolio-icon {
+    left: auto;
+    right: 0;
+}
+
+.portfolio-prev-next .portfolio-next .portfolio-icon {
+    left: 0;
+    right: auto;
+}
+
+.portfolio-prev-next .portfolio-next .portfolio-bio {
+    padding-left: 65px;
+    padding-right: 0;
+    text-align: left;
+}
+
+.portfolio-prev-next .portfolio-prev .portfolio-bio {
+    padding-right: 65px;
+    padding-left: 0;
+}
+
+.portfolio-prev-next .portfolio-icon a i {
+    transform: rotate(180deg);
+}
+
+.portfolio-single .portfolio-share a {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.portfolio-gallery:not(.portfolio-single) .portfolio-item .portfolio-content {
+    right: 40px;
+    text-align: right;
+    left: auto;
+}
+
+/* Elements */
+.team .member .member-overlay .member-social a {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.team-2 .member .member-overlay .member-social,
+.team-2 .member .member-info {
+    right: 40px;
+    text-align: right;
+    left: auto;
+}
+
+.video-button .popup-video span:before {
+    left: -84px;
+}
+
+.features .feature-panel .feature-more a i {
+    left: auto;
+    right: 0;
+    transform: rotate(180deg);
+    margin-left: 6px;
+    margin-right: 0;
+}
+
+.features .feature-panel .feature-more a {
+    padding-right: 20px;
+    padding-left: 0;
+}
+
+.skills .progress-title .value {
+    margin-right: -27px;
+    margin-left: 0;
+}
+
+.progress-gradient .progressbar .progress-bar {
+    background-image: -ms-linear-gradient(right, #EEEEEE 22%, #5156EA 100%);
+    background-image: -moz-linear-gradient(right, #EEEEEE 22%, #5156EA 100%);
+    background-image: -o-linear-gradient(right, #EEEEEE 22%, #5156EA 100%);
+    background-image: -webkit-gradient(linear, right top, right top, color-stop(22, #EEEEEE), color-stop(100, #5156EA));
+    background-image: -webkit-linear-gradient(right, #EEEEEE 22%, #5156EA 100%);
+    background-image: linear-gradient(to left, #EEEEEE 22%, #5156EA 100%);
+}
+
+.cta-1 .cta-content {
+    float: right;
+}
+
+.cta-1 .cta-button {
+    float: left;
+    text-align: left;
+}
+
+/* Footer RTL */
+.social--icons a {
+    margin-right: 0;
+    margin-left: 24px;
+}
+
+.footer .form-newsletter button {
+    left: -1px;
+    right: auto;
+    border-radius: 3px 0 0 3px;
+
+}
+
+.footer .form-newsletter button i {
+    transform: rotate(180deg);
+}
+
+.footer .form-newsletter input {
+    padding: 0 20px 0 60px;
+}
+
+.footer-bottom .footer-menu {
+    text-align: left;
+}
+
+.footer-bottom .footer-menu li a {
+    padding-right: 16px;
+    padding-left: 0;
+}
+
+.footer-bottom .footer-menu li a:before {
+    left: auto;
+    right: 8px;
+}
+
+.widget_query-posts .entry.entry-thumb-small .entry {
+    left: auto;
+    right: 0;
+}
+
+.widget_query-posts .entry.entry-thumb-small .entry-desc {
+    padding-right: 75px;
+    padding-left: 0;
+}
+
+#ctf p.ctf-tweet-text:before {
+    float: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+/* WooCommerce RTL */
+.product-categories a:before {
+    right: -15px;
+    left: auto;
+    transform: rotate(180deg);
+}
+
+.product-categories li {
+    margin-right: 15px;
+    margin-left: 0;
+}
+
+.woocommerce-tabs,
+.comment-form-rating label,
+.woocommerce div.product form.cart div.quantity,
+.woocommerce #content div.product div.images,
+.woocommerce div.product div.images,
+.woocommerce-page #content div.product div.images,
+.woocommerce-page div.product div.images,
+.woocommerce div.product div.images .flex-control-thumbs li,
+.comment-form-rating .stars span,
+.woocommerce-account .woocommerce-MyAccount-navigation,
+.woocommerce-account .addresses .title h3,
+.woocommerce .woocommerce-result-count,
+.woocommerce-page .woocommerce-result-count,
+.woocommerce-form-login input[type=checkbox],
+.woocommerce nav.woocommerce-pagination ul li,
+.woocommerce form.login,
+.cart-box .woocommerce-mini-cart__total strong {
+    float: right;
+}
+
+.woocommerce .quantity input[type=button] {
+    padding-right: 0;
+}
+
+.woocommerce div.product form.cart .button {
+    float: left;
+}
+
+.comment-respond .comment-reply-title:after {
+    right: 0;
+    left: auto
+}
+
+.woocommerce div.product form.cart div.quantity {
+    margin: 0 0 0 4px;
+}
+
+
+.woocommerce #content div.product div.summary,
+.woocommerce div.product div.summary,
+.woocommerce-page #content div.product div.summary,
+.woocommerce-page div.product div.summary {
+    margin-right: 20px;
+}
+
+.related.products {
+    clear: both;
+}
+
+.comment-form-rating {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.comment-form-rating label {
+    margin-right: 0;
+}
+
+.woocommerce #review_form #respond p {
+    margin: 0 0 20px;
+}
+
+.woocommerce p.stars a {
+    text-indent: 9999em;
+}
+
+.woocommerce #review_form #respond p.comment-form-author,
+.woocommerce #review_form #respond p.comment-form-email {
+    display: inline-block;
+    direction: rtl;
+}
+
+.woocommerce-account .woocommerce-MyAccount-content,
+.woocommerce .woocommerce-error .button,
+.woocommerce .woocommerce-info .button,
+.woocommerce .woocommerce-message .button,
+.woocommerce-page .woocommerce-error .button,
+.woocommerce-page .woocommerce-info .button,
+.woocommerce-page .woocommerce-message .button,
+.woocommerce-account .addresses .title .edit {
+    float: left
+}
+
+.woocommerce-error::before,
+.woocommerce-info::before,
+.woocommerce-message::before {
+    right: 30px;
+    left: auto;
+}
+
+.woocommerce-error,
+.woocommerce-info,
+.woocommerce-message {
+    padding: 20px 68px 20px 30px;
+}
+
+.cart-box .cart_list.product_list_widget.woocommerce-mini-cart img {
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+.woocommerce nav.woocommerce-pagination ul li a.next:before {
+    content: "\f104";
+}
+
+.woocommerce nav.woocommerce-pagination ul li a.prev:before {
+    content: "\f105";
+}
+
+.cart-box .cart_list.product_list_widget.woocommerce-mini-cart li {
+    text-align: right;
+}
+
+.cart-box .woocommerce-mini-cart__buttons a.button {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.cart-box .cart_list.product_list_widget.woocommerce-mini-cart img {
+    right: 0;
+    left: auto;
+}
+
+.cart-box .cart_list.product_list_widget.woocommerce-mini-cart li .remove_from_cart_button {
+    left: 0;
+    right: auto
+}
+
+.cart-box .woocommerce-mini-cart__total .woocommerce-Price-amount {
+    float: left;
+    text-align: left;
+}
+
+.woocommerce .woocommerce-ordering select {
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.woocommerce .woocommerce-ordering:before {
+    left: 15px;
+    right: auto;
+}
+
+.woocommerce .woocommerce-ordering,
+.woocommerce-page .woocommerce-ordering {
+    float: left;
+    text-align: right;
+    position: relative;
+}
+
+.woocommerce .woocommerce-ordering,
+.woocommerce form.login {
+    direction: rtl;
+}
+
+.woocommerce-form-login .woocommerce-form__label-for-checkbox span:not(.required) {
+    margin-right: 10px;
+    float: right;
+}
+
+.woocommerce .widget_products ul.product_list_widget li a img,
+.woocommerce .widget_recently_viewed_products ul.product_list_widget li a img {
+    float: right;
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.woocommerce .widget_price_filter .price_slider_amount .button {
+    float: left;
+}
+
+.woocommerce .widget_price_filter .price_slider_amount .price_label {
+    text-align: right;
+}
+
+.woocommerce nav.woocommerce-pagination ul li {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.woocommerce nav.woocommerce-pagination ul li:last-child {
+    margin-left: 0;
+}
+
+.woocommerce form.login,
+.woocommerce .cart-collaterals .cart_totals table.shop_table td,
+.cart-box .woocommerce-mini-cart__total strong {
+    text-align: right
+}
+
+.woocommerce table.shop_table td,
+.woocommerce table.shop_table th {
+    text-align: center;
+}

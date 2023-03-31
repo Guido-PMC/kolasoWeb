@@ -1,0 +1,172 @@
+/*------------------------------------*\
+    #PAGE-TTILE
+\*------------------------------------*/
+.page-title {
+    padding: 0;
+    max-height: 600px;
+    background-image: url(../images/pagetitle.jpg);
+
+    .title {
+        padding: 260px 0 168px 0;
+
+        .title-heading {
+            margin-bottom: 13px;
+
+            h1 {
+                color: $color-white;
+                font-size: 60px;
+                font-weight: 900;
+                line-height: 65px;
+                margin-bottom: 0;
+                text-transform: capitalize;
+            }
+        }
+
+        .title-desc {
+            max-width: 550px;
+
+            p {
+                color: #f9f9f9;
+                font-size: 16px;
+                margin-bottom: 0;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .breadcrumb {
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 13px;
+        background: transparent;
+        color: $color-white;
+
+        a {
+            color: $color-white;
+
+            &:hover {
+                color: $color-theme;
+            }
+        }
+
+        .active {
+            color: $color-white;
+        }
+    }
+}
+
+.breadcrumb-item+.breadcrumb-item {
+    padding-left: 0;
+}
+
+.page-title .breadcrumb-item+.breadcrumb-item::before {
+    color: $color-white;
+    padding: 0 9px;
+}
+
+/* Title #1 */
+.page-title {
+    .title-1 {
+        padding-bottom: 110px;
+
+        .breadcrumb {
+            position: absolute;
+            bottom: 30px;
+            right: 0;
+            left: 0;
+        }
+    }
+}
+
+/* Title #2 */
+.page-title {
+    .title-2 {
+        padding-bottom: 130px;
+
+        .title-heading {
+            margin-bottom: 5px;
+        }
+    }
+}
+
+/* Title #3 */
+.page-title {
+    .title-3 {
+        padding-bottom: 120px;
+
+        .title-heading {
+            margin-bottom: 5px;
+        }
+
+        .breadcrumb {
+            position: absolute;
+            bottom: 50px;
+            right: 0;
+            left: 0;
+        }
+    }
+
+}
+
+/* Title #4 */
+.page-title {
+    .title-4 {
+        padding-bottom: 190px;
+
+        .title-heading {
+            margin-bottom: 35px;
+        }
+
+        .breadcrumb {
+            margin-right: 0 !important;
+            margin-left: 0 !important;
+        }
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 991px) {
+
+    .page-title {
+        .title {
+            padding: 160px 0 130px 0;
+
+            .title-heading {
+
+                h1 {
+                    font-size: 40px;
+                    font-weight: 800;
+                    line-height: 50px;
+                }
+            }
+
+            .title-desc {
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .breadcrumb {
+            font-size: 12px;
+        }
+    }
+}
+
+@media only screen and (min-width : 992px) and (max-width :1200px) {
+
+    .page-title {
+        .title {
+            .title-heading {
+
+                h1 {
+                    font-size: 45px;
+                    font-weight: 800;
+                    line-height: 60px;
+                }
+            }
+        }
+
+    }
+
+}

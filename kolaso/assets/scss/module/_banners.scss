@@ -1,0 +1,80 @@
+/*------------------------------------*\
+    #Banners
+\*------------------------------------*/
+.banners {
+    position: relative;
+
+    .banner-layer-1 {
+        position: relative;
+        left: 50%;
+        top: 45px;
+        @include prefix(transform, translateX(-50%), moz webkit ms o);
+        width: 387px;
+        height: 340px;
+        background-color: $color-theme;
+        border-radius: 6px;
+        box-shadow: 0 1px 73px rgba(40, 40, 40, 0.15);
+        z-index: 97;
+    }
+
+    .banner-layer-2 {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 441px;
+        height: 365px;
+        border-radius: 6px;
+        z-index: 98;
+    }
+
+    .banner-layer-3 {
+        position: absolute;
+        right: 15px;
+        top: 85px;
+        width: 406px;
+        height: 354px;
+        border-radius: 6px;
+        z-index: 99;
+    }
+
+    &.position-right {
+        .banner-layer-2 {
+            left: auto;
+            right: 0;
+        }
+
+        .banner-layer-3 {
+            left: 20px;
+            right: auto;
+        }
+    }
+
+    &.layer-hidden {
+        .banner-layer-1 {
+            opacity: 0;
+        }
+
+        .banner-layer-3 {
+            top: 160px;
+        }
+    }
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .banners {
+
+        .banner-layer-2,
+        .banner-layer-3 {
+            width: 320px;
+        }
+
+        &.layer-hidden {
+            .banner-layer-3 {
+                top: 60px;
+            }
+        }
+    }
+
+}

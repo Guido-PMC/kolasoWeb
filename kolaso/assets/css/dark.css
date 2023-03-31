@@ -1,0 +1,272 @@
+/*------------------------------------*\
+    #DARK LAYOUT
+\*------------------------------------*/
+
+body,
+.wrapper,
+.header-light .navbar,
+.preloader {
+    background-color: #222222;
+}
+
+table,
+table thead,
+.btn-bordered.btn-secondary {
+    background-color: transparent;
+}
+
+.bg-white {
+    background-color: transparent !important;
+}
+
+.bg-gray {
+    background-color: #1d1d1d !important;
+}
+
+.zytheme-list-content.style-grid .grid-item.grid-shadow,
+.zytheme-list-content.style-grid .grid-item,
+.form-control,
+input,
+textarea,
+select,
+.woocommerce table.shop_table,
+.woocommerce .cart-collaterals .cart_totals,
+.woocommerce-page .cart-collaterals .cart_totals,
+.woocommerce-error,
+.woocommerce-info,
+.woocommerce-message,
+.woocommerce form .form-row .select2-container,
+.select2-container--default .select2-selection--single .select2-selection__rendered,
+.select2-container--default .select2-selection--single,
+#add_payment_method #payment,
+.woocommerce-cart #payment,
+.woocommerce-checkout #payment,
+.woocommerce-account .woocommerce-MyAccount-navigation,
+.btn-secondary,
+.blockquote-3,
+.testimonial-2 .testimonial-panel,
+.woocommerce-account .woocommerce-MyAccount-content,
+.woocommerce .col2-set .col-1,
+.woocommerce-page .col2-set .col-1,
+.woocommerce .col2-set .col-2,
+.woocommerce-page .col2-set .col-2,
+.widget,
+.blog-single .author-box,
+.blog-single .entry-quote,
+.blog-single .entry-link,
+.pagination-nav .pagination .nav-links a,
+.pagination-nav .pagination .nav-links span,
+.portfolio-single .portfolio-list,
+.vc_tta-container .vc_tta-accordion.vc_tta-style-classic .vc_tta-panels .vc_tta-panel,
+.vc_tta-container .vc_tta-accordion.vc_tta-style-classic .vc_tta-panels .vc_tta-panel .vc_tta-panel-heading .vc_tta-panel-title>a,
+.vc_tta-container .vc_tta-accordion.vc_tta-style-classic .vc_tta-panels .vc_tta-panel .vc_tta-panel-body,
+.pricing .pricing-panel,
+.widget_tag_cloud a,
+.widget_product_tag_cloud a {
+    background-color: #1d1d1d;
+}
+
+.btn-secondary,
+.btn-outline.btn-secondary {
+    border-color: #1d1d1d;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.text-black,
+ul.icon-list li i,
+ul.number-list li span,
+ul.dot-list li i,
+.accordion .panel .panel--heading a,
+.accordion .vc_tta-panel-title>a,
+.wpb-js-composer .vc_tta.vc_general .vc_tta-panel-title>a,
+.blockquote-2:after,
+.blockquote-2:before,
+.alerts .alert-content p,
+.mc4wp-alert p,
+.progressbar .progress-title .title,
+.progressbar .progress-title .value,
+.header-light .navbar-nav>li>a,
+.hero-3 .popup-video .hero-8 h1,
+.countdown-dark .countdown-amount,
+.blog-entry .entry--title h4 a,
+.blog-1 .entry .entry--content a h3,
+.entry--share .share--title,
+.entry-bio .entry-bio-desc .entry-bio-author a,
+.page-link,
+.edit-link a,
+.entry-related .entry--title h5,
+.entry-related .entry--title a,
+ul.comments-list .comment-body .fn,
+ul.comments-list .comment-body .fn a,
+.widget-recent-products .product .product-title a,
+.widget_recent_comments ul li .comment-author-link,
+.widget_recent-posts .entry .entry-title a,
+.pie-chart .skill-name h6,
+#wp-calendar caption #wp-calendar thead th,
+.widget-best-product .best-product .product-bio .product-price,
+.carousel-style-theme.carousel-navs .owl-controls .owl-nav [class*=owl-]:hover,
+.woocommerce .woocommerce-result-count,
+.woocommerce div.product form.cart .variations label,
+.cart-box .woocommerce-mini-cart__total strong,
+.woocommerce #review_form #respond .comment-reply-title,
+.woocommerce #reviews .comment-form-comment label,
+.comment-form-rating label,
+.widget-categories ul li a,
+.widget ul li a,
+.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+.woocommerce .quantity .qty,
+table thead tr th,
+.woocommerce-error,
+.woocommerce-info,
+.woocommerce-message,
+.woocommerce-account .woocommerce-MyAccount-navigation li a,
+legend,
+ul.list-icons li i,
+.vc_tta-container .vc_tta-tabs.vc_tta-style-classic .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab a,
+.vc_tta-container .vc_tta-tabs.vc_tta-style-modern .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab a,
+.vc_tta-container .vc_tta-tabs.vc_tta-style-modern .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab a i,
+.blog-grid .blog-entry .entry-title a,
+.blog-grid .blog-entry .entry-more a,
+.header-light .navbar .module .module-icon i,
+.header-light .navbar .navbar-nav>li>a,
+.woocommerce-account .woocommerce-MyAccount-navigation ul li a,
+.woocommerce-checkout table.shop_table td.product-name,
+.woocommerce form .form-row label,
+.woocommerce table.shop_table th,
+.woocommerce table.shop_table a,
+.widget .widget-title,
+.entry-meta a,
+.blog-single .entry-title a,
+.blog-single .entry-share .share-title,
+.blog-single .entry-share a,
+.blog-single .entry-prev-next a,
+.blog-single .entry-related .blog-entry .entry-title a,
+.widget_query-posts .entry .entry-title a,
+.blog-single .entry-quote strong,
+.blog-single .entry-link a,
+.pagination-nav .pagination .nav-links a,
+.pagination-nav .pagination .nav-links span,
+.blog-textual .blog-entry .entry-title a,
+.blog-textual .blog-entry .entry-more a,
+.blog-standard .blog-entry .entry-title a,
+.portfolio-single .portfolio-title h3,
+.portfolio-prev-next .portfolio-bio a,
+.portfolio-single .portfolio-share span,
+.portfolio-single .portfolio-share a,
+.portfolio-single .portfolio-list li span,
+.portfolio-parallax .portfolio-item .portfolio-title h4 a,
+.portfolio-filter li a,
+.portfolio-item .portfolio-title h4,
+.vc_tta-container .vc_tta-accordion.vc_tta-style-classic .vc_tta-panels .vc_tta-panel .vc_tta-panel-heading .vc_tta-panel-title>a,
+.vc_tta-container .vc_tta-accordion.vc_tta-style-classic .vc_tta-panels .vc_tta-panel .vc_tta-panel-heading .vc_tta-panel-title>a span,
+.btn-underlined,
+.pricing .pricing-panel .pricing-heading p,
+.widget_products ul.product_list_widget li a {
+    color: #fff;
+}
+
+.btn-underlined:before {
+    background-color: #ffffff;
+}
+
+.entry-meta .entry-author,
+.entry-meta .entry-comments,
+.entry-meta .entry-cat,
+.entry-meta .entry-date,
+.entry-meta .entry-read {
+    color: #9b9b9b;
+}
+
+.woocommerce-checkout #payment ul.payment_methods li,
+.widget-tags a,
+.tagcloud a {
+    background-color: #222
+}
+
+.woocommerce table.shop_table td,
+#add_payment_method .cart-collaterals .cart_totals tr td,
+#add_payment_method .cart-collaterals .cart_totals tr th,
+.woocommerce-cart .cart-collaterals .cart_totals tr td,
+.woocommerce-cart .cart-collaterals .cart_totals tr th,
+.woocommerce-checkout .cart-collaterals .cart_totals tr td,
+.woocommerce-checkout .cart-collaterals .cart_totals tr th,
+.portfolio-prev-next {
+    border-top-color: #2c2c2c;
+}
+
+
+.widget_categories ul li,
+.blog-single .entry-share,
+.blog-single .entry-content,
+.blog-single .entry-related,
+.portfolio-single .portfolio-list li,
+.product-categories li {
+    border-bottom-color: #2c2c2c;
+}
+
+.blog-single .entry-prev-next,
+.vc_tta-container .vc_tta-accordion.vc_tta-style-classic .vc_tta-panels .vc_tta-panel,
+.woocommerce-product-search {
+    border-color: #2c2c2c;
+}
+
+.widget_search .search-form {
+    background-color: #222222;
+    border-color: #2c2c2c;
+}
+
+.carousel-dots .owl-controls .owl-dots .owl-dot span {
+    background-color: #fff;
+    border-color: #222;
+}
+
+.carousel-dots .owl-controls .owl-dots .owl-dot.active span {
+    -moz-box-shadow: 0 0 0 2px #fff;
+    -webkit-box-shadow: 0 0 0 2px #fff;
+    box-shadow: 0 0 0 2px #fff;
+}
+
+
+@media only screen and (min-width: 992px) {
+
+    .navbar-nav>li.menu-item-has-children>ul.dropdown-menu,
+    .has-mega-menu .dropdown-menu .container,
+    li.dropdown-submenu>ul.mega-menu,
+    li.menu-item-has-children>ul.dropdown-menu>li.dropdown-submenu>ul.dropdown-menu {
+        background-color: #222;
+        box-shadow: none;
+    }
+
+}
+
+.features .feature-panel .feature-more a i {
+    background-color: #222;
+    color: #fff;
+}
+
+.woocommerce form .form-row .woocommerce-input-wrapper input {
+    background: transparent;
+
+}
+
+.woocommerce table.shop_table td,
+.woocommerce table.shop_table th {
+    border-right-color: #2c2c2c;
+}
+
+.woocommerce div.product .woocommerce-tabs .panel,
+.woocommerce div.product .woocommerce-tabs ul.tabs,
+.woocommerce-product-search {
+    background: #1d1d1d;
+}

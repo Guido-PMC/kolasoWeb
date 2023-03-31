@@ -1,0 +1,46 @@
+/*------------------------------------*\
+    #Custom
+\*------------------------------------*/
+@media only screen and (min-width : 1800px) {
+    .custom-mockup .vc_figure {
+        max-width: 110%;
+    }
+
+    .custom-mockup img {
+        width: 115%;
+        max-width: inherit;
+    }
+}
+
+.custom-mockup2 {
+    .vc_figure {
+        position: relative;
+    }
+
+    .vc_single_image-wrapper {
+        img {
+            position: absolute;
+            bottom: -275px;
+            right: -50px;
+            max-width: inherit;
+        }
+    }
+}
+
+.mockup-img {
+    position: absolute;
+    right: -50px;
+
+    img {
+        max-width: inherit;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 991px) {
+    .mockup-img {
+        position: relative;
+        right: 0;
+        max-width: 100%;
+    }
+}

@@ -1,0 +1,139 @@
+/* Small Devices, Tablets */
+@media only screen and (max-width : 991px) {
+	.module {
+		width: 100%;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+		padding: 0;
+
+		.module-icon {
+			padding-top: 0;
+			line-height: 36px !important;
+
+			i {
+				color: $color-heading;
+			}
+		}
+
+		.module-box {
+			position: relative;
+			right: 0;
+			width: 100%;
+			border: none;
+		}
+
+		.module-label {
+			top: -3px;
+			position: relative;
+		}
+
+		span.title {
+			display: inline-block;
+			color: $color-heading;
+			font-size: 13px;
+			font-weight: 700;
+			text-transform: capitalize;
+		}
+
+		.cart-box,
+		.search-box {
+			display: none;
+			padding-right: 10px;
+			padding-left: 10px;
+		}
+
+		.module-content {
+			margin-bottom: 10px;
+		}
+
+		.cart-box {
+			.cart-overview h5 {
+				color: $color-white
+			}
+
+		}
+
+		.module-search .search-icon i {
+			border-left: none;
+			padding-left: 0;
+			padding-right: 5px;
+		}
+
+
+	}
+
+	.module-cart.active .cart-box {
+		opacity: 1;
+		visibility: visible;
+		display: block;
+		-webkit-transform: translateY(0);
+		-moz-transform: translateY(0);
+		-o-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	.module.module-active .cart-box,
+	.module.module-active .search-box {
+		display: block !important;
+	}
+
+	.module-search.module-active .search-box .search-form {
+		margin-bottom: 10px;
+	}
+
+	.module-search.module-active .search-box .search-form input {
+		background-color: $color-white;
+		margin-bottom: 0;
+		height: 35px;
+		line-height: 35px;
+		padding-left: 10px;
+		max-width: 100%;
+	}
+
+	.module-cart.module-active .cart-box {
+		background-color: #222222;
+		border: none;
+		padding: 30px 20px;
+		margin-bottom: 10px;
+	}
+
+	.module-cart.module-active .cart-box .cart-control {
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+	}
+
+	.module-cart.module-active .cart-box .cart-control .pull-right {
+		float: none !important;
+	}
+
+	.module-social {
+		a {
+			color: $color-heading;
+			line-height: 36px;
+		}
+	}
+
+	.module-container {
+		padding-left: 0;
+
+	}
+
+	.module-search-box .form-control {
+		font-size: 24px;
+	}
+
+	.module-sidearea {
+		.module-sidearea-wrap {
+			width: 320px;
+			padding: 40px;
+		}
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 992px) and (max-width : 1200px) {
+	.module-search .search-icon i {
+		padding-left: 16px;
+		padding-right: 16px;
+	}
+}

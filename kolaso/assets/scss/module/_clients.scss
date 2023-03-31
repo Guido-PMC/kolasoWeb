@@ -1,0 +1,56 @@
+/*------------------------------------*\
+    #Client
+\*------------------------------------*/
+
+.clients {
+    .client {
+        position: relative;
+        line-height: 50px;
+        cursor: pointer;
+        @include prefix(transition, .3s ease, webkit moz ms o);
+
+        &:hover {
+            @include prefix(transform, translateY(-5px), webkit moz ms o);
+        }
+
+        img {
+            max-width: 100%;
+            width: auto !important;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+
+    &.clients-grid {
+        .client-img {
+            margin: 15px auto 15px auto;
+            text-align: center;
+
+            &:hover {
+                @include prefix(transform, translateY(-5px), webkit moz ms o);
+            }
+        }
+    }
+
+    .client-img {
+        @include prefix(transition, .3s ease, webkit moz ms o);
+
+        &:hover {
+            @include prefix(transform, translateY(-5px), webkit moz ms o);
+        }
+    }
+}
+
+
+
+
+@media only screen and (max-width: 991px) {
+    .clients {
+        img {
+            margin-right: auto;
+            margin-left: auto;
+            text-align: center;
+        }
+    }
+}

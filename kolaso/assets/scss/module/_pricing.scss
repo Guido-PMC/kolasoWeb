@@ -1,0 +1,126 @@
+/*--------------------------------
+    #pricing
+---------------------------------*/
+.pricing {
+
+    .pricing-panel {
+        text-align: center;
+        background-color: #fff;
+        padding: 50px;
+        @include rounded(6px);
+        overflow: hidden;
+        @include prefix(box-shadow, 0px 2px 15px 0px rgba(40, 40, 40, 0.06), moz webkit);
+
+        .pricing-heading {
+            h4 {
+                font-size: 18px;
+                line-height: 1;
+                color: $color-theme;
+                margin-bottom: 13px;
+            }
+
+            .pricing-desc {
+                font-size: 13px;
+                color: #a5a5a5;
+                line-height: 1;
+                margin-bottom: 38px;
+            }
+
+            p {
+                font-family: $font-heading;
+                font-size: 70px;
+                font-weight: 700;
+                color: $color-heading;
+                line-height: 1;
+
+                .currency {
+                    font-size: 20px;
+                }
+
+                .time {
+                    display: block;
+                    font-size: 15px;
+                }
+            }
+        }
+
+        .pricing-body {
+            padding: 15px 0;
+
+            li {
+                font-size: 14px;
+                line-height: 35px;
+            }
+        }
+    }
+
+    .pricing-active {
+        position: relative;
+        padding: 80px 50px;
+        z-index: 2;
+        @include prefix(transform, translateY(-30px), moz webkit);
+    }
+}
+
+.pricing-1 {
+    padding-top: 30px;
+
+    .pricing-panel:not(.pricing-active) {
+        @include rounded(0 6px 6px 0);
+    }
+}
+
+
+.pricing-2 {
+    .pricing-active {
+        padding: 50px;
+        @include prefix(transform, translateY(0), moz webkit);
+    }
+}
+
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .pricing {
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        .heading {
+            margin-top: 0;
+        }
+
+        .pricing-panel {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 40px;
+            @include rounded(6px);
+
+            &:not(.pricing-active) {
+                @include rounded(6px);
+            }
+        }
+
+        .pricing-active {
+            padding: 40px;
+        }
+    }
+}
+
+/* Tablets */
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    .pricing {
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        .heading {
+            margin-top: 0;
+        }
+    }
+
+    .pricing-panel {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,53 @@
+/*------------------------------------*\
+    #Contacts
+\*------------------------------------*/
+
+.contact-panel {
+    padding: 0 50px;
+    border-radius: 0;
+    background-color: transparent;
+
+    &:hover {
+        .contact-icon {
+            i {
+                @include prefix(animation, IconPulse 900ms infinite, webkit moz ms o);
+            }
+        }
+    }
+
+    .contact-icon {
+        font-size: 45px;
+        color: $color-theme;
+        line-height: 1;
+        margin-bottom: 24px;
+
+        i {
+            display: inline-block;
+            @include prefix(transition, all 300ms linear, webkit moz ms o);
+        }
+
+    }
+
+    h4 {
+        font-size: 18px;
+        line-height: 1;
+        margin-bottom: 19px;
+    }
+
+    p {
+        font-size: 13px;
+        line-height: 23px;
+        margin-bottom: 18px;
+    }
+
+    .btn {
+        @include prefix(box-shadow, none, moz webkit);
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width:991px) {
+    .contact-panel {
+        padding: 30px;
+        margin-bottom: 30px;
+    }
+}

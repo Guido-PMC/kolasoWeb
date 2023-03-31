@@ -1,0 +1,343 @@
+/*------------------------------------*\
+    #BUTTONS
+\*------------------------------------*/
+
+.btn {
+    font-family: $font-body;
+    position: relative;
+    z-index: 2;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 0;
+    line-height: 48px;
+    width: 170px;
+    height: 50px;
+    letter-spacing: 0.26px;
+    background: transparent;
+    border: none;
+    @include rounded(0);
+    @include prefix(transition, all .3s ease-in-out, webkit moz ms o);
+    cursor: pointer;
+}
+
+.btn:focus,
+.btn.active,
+.btn:active,
+body .btn-primary:not(:disabled):not(.disabled).active:focus {
+    @include prefix(box-shadow, none, moz webkit);
+    outline: none;
+}
+
+/* Button Primary */
+
+.btn-primary {
+    background-color: $color-theme;
+    color: $color-white;
+    border: 2px solid $color-theme;
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active {
+    background-color: $color-dark;
+    color: $color-white;
+    border: 2px solid $color-dark;
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover {
+    @include prefix(box-shadow, none, moz webkit);
+}
+
+.btn-primary.btn-inverse:active,
+.btn-primary.btn-inverse:focus,
+.btn-primary.btn-inverse:hover {
+    background-color: $color-white;
+    color: $color-theme;
+    border-color: $color-white;
+}
+
+/* Button Secondary*/
+
+.btn-secondary {
+    background-color: $color-dark;
+    color: $color-white;
+    border: 2px solid $color-dark;
+}
+
+.btn-secondary:active,
+.btn-secondary:focus,
+.btn-secondary:hover {
+    background-color: $color-theme;
+    color: $color-white;
+    border-color: $color-theme;
+}
+
+.btn-secondary.btn-inverse:active,
+.btn-secondary.btn-inverse:focus,
+.btn-secondary.btn-inverse:hover {
+    background-color: $color-white;
+    color: $color-dark;
+    border-color: $color-white;
+}
+
+/* Button White */
+
+.btn-white {
+    background-color: $color-white;
+    color: $color-heading;
+    border: 2px solid $color-white;
+
+    &:active,
+    &:focus,
+    &:hover {
+        background-color: $color-theme;
+        color: $color-white;
+        border-color: $color-theme;
+    }
+
+}
+
+/* Button Hover */
+.btn-hover-dark {
+
+    &:active,
+    &:focus,
+    &:hover {
+        background-color: $color-heading;
+        color: $color-white;
+        border-color: $color-heading;
+    }
+
+}
+
+/* Button Block */
+.btn-block {
+    width: 100%;
+}
+
+.btn-fullwidth {
+    width: 100%;
+}
+
+.btn-auto {
+    width: auto;
+    padding: 0 20px;
+}
+
+/* Button Size */
+.btn-large {
+    height: 61px;
+    line-height: 59px;
+}
+
+.btn-small {
+    height: 41px;
+    line-height: 39px;
+}
+
+/* Button Rounded */
+.btn-rounded {
+    @include rounded(3px);
+
+    &:active,
+    &:focus,
+    &:hover {
+        @include rounded(3px);
+    }
+
+}
+
+.btn-circle {
+    @include rounded(50px);
+
+    &:active,
+    &:focus,
+    &:hover {
+        @include rounded(50px);
+    }
+}
+
+/* Button Alignment */
+.btn-center {
+    text-align: center;
+}
+
+.btn-left {
+    text-align: left;
+}
+
+.btn-right {
+    text-align: right;
+}
+
+/* Button Shadow */
+.btn-shadow,
+.btn-hover-shadow:hover,
+.btn-hover-shadow:focus,
+.btn-hover-shadow:active {
+    @include prefix(box-shadow, 0px 9px 30px 0px rgba(40, 40, 40, 0.15), moz webkit);
+}
+
+/* Button Link */
+
+.btn-link {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-link.btn-primary {
+    color: $color-theme;
+}
+
+.btn-link.btn-primary:active,
+.btn-link.btn-primary:focus,
+.btn-link.btn-primary:hover {
+    color: $color-dark;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.btn-link.btn-secondary {
+    color: $color-dark;
+}
+
+.btn-link.btn-secondary:active,
+.btn-link.btn-secondary:focus,
+.btn-link.btn-secondary:hover {
+    color: $color-theme;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+/* Button Bordered */
+
+.btn-outline {
+    background-color: transparent;
+}
+
+.btn-outline.btn-primary {
+    color: $color-theme;
+    border-color: $color-theme
+}
+
+.btn-outline.btn-primary:active,
+.btn-outline.btn-primary:focus,
+.btn-outline.btn-primary:hover {
+    color: $color-white;
+    background-color: $color-dark;
+    border-color: $color-dark;
+}
+
+.btn-outline.btn-secondary {
+    color: $color-dark;
+    border-color: $color-dark
+}
+
+.btn-outline.btn-secondary:active,
+.btn-outline.btn-secondary:focus,
+.btn-outline.btn-secondary:hover {
+    color: $color-white;
+    background-color: $color-dark;
+    border-color: $color-dark
+}
+
+.btn-outline.btn-white {
+    color: $color-white;
+    border-color: $color-white
+}
+
+.btn-outline.btn-white:active,
+.btn-outline.btn-white:focus,
+.btn-outline.btn-white:hover {
+    color: $color-theme;
+    background-color: $color-white;
+    border-color: $color-white
+}
+
+.btn-white.btn-secondary {
+    color: $color-dark;
+    border-color: $color-white;
+    background-color: $color-white;
+}
+
+.btn-white.btn-secondary:active,
+.btn-white.btn-secondary:focus,
+.btn-white.btn-secondary:hover {
+    color: $color-white;
+    background-color: $color-theme;
+    border-color: $color-theme;
+}
+
+.btn i {
+    margin-right: 7px;
+    @include prefix(transition, all .3s ease-in-out, webkit moz ms o);
+}
+
+
+.btn-underlined {
+    font-size: 14px;
+    font-weight: 600;
+    color: #222222;
+    position: relative;
+    padding-bottom: 6px;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    line-height: 1;
+
+    &:hover {
+        color: $color-theme;
+    }
+
+    &:hover:after {
+        width: 100%;
+    }
+}
+
+.btn-underlined:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #222222;
+}
+
+.btn-underlined:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 0;
+    background-color: $color-theme;
+    @include prefix(transition, all .3s ease, webkit moz ms o);
+}
+
+.btn-custom {
+    color: $color-white;
+}
+
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom:hover {
+    background-color: $color-heading !important;
+    color: $color-white;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+
+    .btn-left,
+    .btn-right {
+        text-align: center;
+    }
+
+}

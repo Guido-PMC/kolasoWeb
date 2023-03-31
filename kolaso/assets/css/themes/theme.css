@@ -1,0 +1,374 @@
+/* Button Primary */
+.btn-primary {
+  background-color: #5156ea;
+  border: 2px solid #5156ea;
+}
+
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover,
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active {
+  color: #5156ea;
+  border: 2px solid #5156ea;
+}
+
+
+.btn-white:active,
+.btn-white:focus,
+.btn-white:hover {
+  background-color: #5156ea;
+  border-color: #5156ea;
+}
+
+
+.btn-link.btn-primary {
+  color: #5156ea;
+}
+
+.btn-link.btn-secondary:active,
+.btn-link.btn-secondary:focus,
+.btn-link.btn-secondary:hover {
+  color: #5156ea;
+}
+
+
+.btn-outline.btn-primary {
+  color: #5156ea;
+  border-color: #5156ea;
+}
+
+.btn-outline.btn-primary:active,
+.btn-outline.btn-primary:focus,
+.btn-outline.btn-primary:hover {
+  background-color: #5156ea;
+  border-color: #5156ea;
+}
+
+.btn-outline.btn-white:active,
+.btn-outline.btn-white:focus,
+.btn-outline.btn-white:hover {
+  color: #5156ea;
+}
+
+.btn-white.btn-secondary:active,
+.btn-white.btn-secondary:focus,
+.btn-white.btn-secondary:hover {
+  background-color: #5156ea;
+  border-color: #5156ea;
+}
+
+.btn-underlined:hover,
+.alerts .alert-content h4,
+ul.dot-list li:before,
+.tabs .nav-tabs>li>a a:focus,
+.tabs .nav-tabs>li>a:hover,
+.tabs .nav-tabs>li>a.active,
+.tabs .nav-tabs>li>a.active:focus,
+.tabs .nav-tabs>li>a.active:hover,
+.vc_tta-container .vc_tta-tabs.vc_tta-style-modern .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab a:hover,
+.vc_tta-container .vc_tta-tabs.vc_tta-style-modern .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab.vc_active a,
+.vc_tta-container .vc_tta-tabs.vc_tta-style-classic .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab a:hover,
+.vc_tta-container .vc_tta-tabs.vc_tta-style-classic .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab.vc_active a,
+.range-slider input,
+.header-full .contact-bar .module-social a,
+ul.mega-menu li ul li span,
+ul.dropdown-menu li>a:active,
+ul.dropdown-menu li>a:focus,
+ul.dropdown-menu li>a:hover,
+ul.mega-menu li a:active,
+ul.mega-menu li a:focus,
+ul.mega-menu li a:hover,
+.module .module-icon:hover i,
+.module-sidearea-inner .sidearea-footer .social-share a:hover,
+.cart-box .cart-overview p,
+.cart-box .cart--control .total-price,
+.module-social a:hover,
+.header-topbar .topbar .contact-info i,
+.header-topbar .topbar .contact-social a,
+.top-bar .top--social a:hover,
+.top-bar .contact-info i,
+.page-title .breadcrumb a:hover,
+.carousel-navs .owl-nav [class*=owl-]:hover,
+.heading .heading-subtitle,
+.pie-chart .rounded-skill span,
+.pie-chart .rounded-skill .rounded-icon,
+.entry-meta a:hover,
+.blog-single .entry-link:before,
+.blog-single .entry-link a:hover,
+.blog-single .entry-quote:before,
+.blog-single .entry-share a:hover,
+.blog-single .entry-prev-next a:hover,
+.blog-single .entry-related .blog-entry .entry-date a:hover,
+.blog-single .entry-related .blog-entry .entry-title a:hover,
+div.entry-comments ul.comments-list .comment-body .fn a:hover,
+div.entry-comments ul.comments-list .comment-body .comment-metadata a:hover,
+div.entry-comments ul.comments-list .comment-body .reply a,
+.comment-respond .comment-notes a,
+.comment-respond .logged-in-as a,
+.comment-respond .no-comments a,
+.comment-respond .comment-notes .required,
+.blog-single .edit-link a:hover,
+.blog-grid .blog-entry .entry-date a:hover,
+.blog-grid .blog-entry .entry-title a:hover,
+.blog-grid .blog-entry .entry-more a:hover,
+.blog-standard .blog-entry .entry-title a:hover,
+.blog-standard .blog-entry .entry-more a,
+.blog-textual .blog-entry .entry-date a:hover,
+.blog-textual .blog-entry .entry-title a:hover,
+.blog-textual .blog-entry .entry-more a:hover,
+.portfolio-filter li a:hover,
+.portfolio-filter li a.active-filter,
+.portfolio-item .portfolio-title a:hover:hover,
+.portfolio-item .portfolio-cat a:hover:hover,
+.portfolio-parallax .portfolio-item .portfolio-title h4 a:hover,
+.portfolio-single .portfolio-list li a:hover,
+.portfolio-single .portfolio-share a:hover,
+.portfolio-prev-next .portfolio-bio a:hover,
+.widget_categories ul li a:hover,
+.widget_categories ul li a:before,
+.widget_recent-posts .entry .entry--title a:hover,
+.widget_search .search-form .search-submit,
+.widget_recent-products .product .product-title a:hover,
+.widget_recent-products .product .product-desc .product-meta,
+.widget_meta ul li a:hover,
+.widget_pages ul li a:hover,
+.widget_archive ul li a:hover,
+.widget_meta ul li a:before,
+.widget_pages ul li a:before,
+.widget_archive ul li a:before,
+.widget_recent_entries ul li a:hover,
+.widget_recent_entries ul li a:before,
+.widget_recent_comments ul li a:hover,
+.widget_rss .widget-content .rsswidget:hover,
+.widget_query-posts .entry .entry-title a:hover,
+.widget_query-posts .entry .entry-date a:hover,
+.features .feature-panel .feature-icon,
+.features .feature-panel:hover .feature-more a,
+.pricing .pricing-panel .pricing-heading h4,
+.contact-panel .contact-icon,
+.testimonial-panel .testimonial-icon:before,
+.video-button .popup-video i:hover,
+.video-button.player-dark .popup-video:hover i,
+.video-button.player-theme .popup-video h6,
+.counter .count-box .counting,
+.services .service-panel:hover .service-more a,
+.countdown-amount,
+.countdown-theme .countdown-amount,
+#ctf p.ctf-tweet-text:before,
+.footer ul.menu li a:hover,
+.widget_login .login-container .button-primary:hover {
+  color: #5156ea;
+}
+
+.vc_tta-container .vc_tta-tabs.vc_tta-style-classic .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab a:hover,
+.vc_tta-container .vc_tta-tabs.vc_tta-style-classic .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab.vc_active a,
+.vc_tta-container .vc_tta-tabs.vc_tta-style-classic:not([class*=vc_tta-gap]):not(.vc_tta-o-no-fill).vc_tta-tabs-position-top .vc_tta-tab.vc_active>a {
+  border-bottom-color: #5156ea;
+}
+
+
+.vc_tta-container .vc_tta-tabs.vc_tta-style-classic.vc_tta-tabs-position-left .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab.vc_active a,
+.vc_tta-container .vc_tta-tabs.vc_tta-style-classic.vc_tta-tabs-position-right .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab.vc_active a {
+  border-right-color: #5156ea;
+}
+
+.form-control:focus,
+input:focus,
+select:focus,
+textarea:focus,
+.label-checkbox .check-indicator:after,
+.slider-theme.slider-dots .owl-dots .owl-dot span,
+.video-button.player-theme .popup-video span:before,
+.testimonial-panel .testimonial-img,
+.vc_tta-container .vc_tta-accordion.vc_tta-style-classic .vc_tta-panels .vc_tta-controls-icon:before,
+.vc_tta-container .vc_tta-accordion.vc_tta-style-classic .vc_tta-panels .vc_tta-controls-icon:after,
+.vc_tta-container .vc_tta-accordion.vc_tta-style-classic .vc_active .vc_tta-panel-heading .vc_tta-controls-icon.vc_tta-controls-icon-plus:before,
+.vc_tta-container .vc_tta-accordion.vc_tta-style-classic .vc_active .vc_tta-panel-heading .vc_tta-controls-icon.vc_tta-controls-icon-plus:after,
+.widget_login .login-container .button-primary:hover,
+.vc_tta-container .vc_tta-tabs.vc_tta-style-modern.vc_tta-tabs-position-left .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab a:hover,
+.vc_tta-container .vc_tta-tabs.vc_tta-style-modern.vc_tta-tabs-position-right .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab a:hover,
+.vc_tta-container .vc_tta-tabs.vc_tta-style-modern .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab.vc_active a i .vc_tta-container .vc_tta-tabs.vc_tta-style-modern .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab a:hover i,
+.vc_tta-container .vc_tta-tabs.vc_tta-style-modern.vc_tta-tabs-position-left .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab.vc_active a,
+.vc_tta-container .vc_tta-tabs.vc_tta-style-modern.vc_tta-tabs-position-right .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab.vc_active a,
+.pagination li a:hover,
+.pagination li span:hover,
+.pagination li .current,
+.pagination-nav .pagination .nav-links a:hover,
+.pagination-nav .pagination .nav-links span:hover,
+.pagination-nav .pagination .nav-links .current,
+.carousel-dots.carousel-theme .owl-dots .owl-dot.active span {
+  border-color: #5156ea;
+}
+
+.sk-cube-grid .sk-cube,
+.sk-folding-cube .sk-cube:before,
+.sk-fading-circle .sk-circle:before,
+.dot1,
+.dot2,
+.double-bounce1,
+.double-bounce2,
+.spinner-rotate,
+.vc_tta-container .vc_tta-tabs.vc_tta-style-modern.vc_tta-tabs-position-left .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab a:hover,
+.vc_tta-container .vc_tta-tabs.vc_tta-style-modern.vc_tta-tabs-position-right .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab a:hover,
+.vc_tta-container .vc_tta-tabs.vc_tta-style-modern .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab.vc_active a i .vc_tta-container .vc_tta-tabs.vc_tta-style-modern .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab a:hover i,
+.vc_tta-container .vc_tta-tabs.vc_tta-style-modern.vc_tta-tabs-position-left .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab.vc_active a,
+.vc_tta-container .vc_tta-tabs.vc_tta-style-modern.vc_tta-tabs-position-right .vc_tta-tabs-container .vc_tta-tabs-list .vc_tta-tab.vc_active a,
+.pagination li a:hover,
+.pagination li span:hover,
+.pagination li .current,
+.pagination-nav .pagination .nav-links a:hover,
+.pagination-nav .pagination .nav-links span:hover,
+.pagination-nav .pagination .nav-links .current,
+.carousel-dots.carousel-theme .owl-dots .owl-dot.active span,
+.higlighted-theme,
+.dropcap-3,
+.pagination-buttons .next-page a,
+.pagination-buttons .prev-page a,
+.pagination-buttons .next-page a:hover,
+.pagination-buttons .prev-page a:hover,
+.alerts .alert-icon,
+.backtop,
+.range-slider .ui-slider-range,
+.module .module-label,
+.cart-box .cart-overview li .cart-cancel:hover,
+.module-consultation .btn:hover,
+.blog-single .entry-tags a,
+.blog-single .entry-related .blog-entry .entry-cat,
+.comment-respond .submit,
+.comment-respond .submit:hover,
+.comment-respond #cancel-comment-reply-link,
+.blog-single .page-link a,
+.blog-grid .blog-entry .entry-cat,
+.blog-textual .blog-entry .entry-cat,
+.portfolio-prev-next .portfolio-icon a:hover,
+.widget_tag_cloud a:hover,
+.widget_product_tag_cloud a:hover,
+.widget_login .login-container .button-primary,
+.skills .progress-bar,
+.entry-meta .entry-cat,
+.navbar.affix .module.module-consultation .btn,
+.top-bar,
+.video-button.player-theme .popup-video i,
+.footer .form-newsletter button {
+  background-color: #5156ea;
+}
+
+@media only screen and (max-width: 991px) {
+
+  .module-consultation .btn {
+    background: #5156ea;
+  }
+
+}
+
+.progress-gradient .progressbar .progress-bar {
+  background-image: -ms-linear-gradient(left, #EEEEEE 22%, #5156EA 100%);
+  background-image: -moz-linear-gradient(left, #EEEEEE 22%, #5156EA 100%);
+  background-image: -o-linear-gradient(left, #EEEEEE 22%, #5156EA 100%);
+  background-image: -webkit-linear-gradient(left top, right top, color-stop(22, #EEEEEE), color-stop(100, #5156EA));
+  background-image: -webkit-linear-gradient(left, #EEEEEE 22%, #5156EA 100%);
+  background-image: linear-gradient(to right, #EEEEEE 22%, #5156EA 100%);
+}
+
+.bg-overlay-theme:before,
+.team .member .member-overlay,
+.portfolio-item .portfolio-hover .portfolio-action,
+.bg-overlay-theme .vc_parallax-inner:before,
+#sb_instagram .sbi_photo:before {
+
+  background-color: rgba(81, 86, 234, 0.95);
+
+}
+
+
+/*
+ Woocommerce
+*/
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+.woocommerce button.button.alt,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover,
+.woocommerce div.product div.images .woocommerce-product-gallery__trigger:after,
+.woocommerce div.product div.images .pswp__bg,
+.product_share a,
+.products-pagination a:hover,
+.woocommerce table.shop_table a.remove:hover,
+.woocommerce-cart table.cart td.actions .button[name=update_cart]:hover,
+.cart-box .woocommerce-mini-cart__buttons a.button.checkout,
+.cart-box .woocommerce-mini-cart__buttons a.button.wc-forward:not(.checkout):hover,
+.up-sells.upsells.products>h2:after,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,
+.woocommerce nav.woocommerce-pagination ul li a:focus,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+.woocommerce nav.woocommerce-pagination ul li span:focus,
+.woocommerce nav.woocommerce-pagination ul li span:hover,
+.woocommerce nav.woocommerce-pagination ul li span.current {
+  background-color: #5156ea;
+}
+
+.woocommerce div.product div.images .woocommerce-product-gallery__trigger:before {
+  border-color: #5156ea;
+}
+
+.woocommerce-message {
+  border-top-color: #5156ea;
+}
+
+
+.cart-box .cart_list.product_list_widget.woocommerce-mini-cart li .remove_from_cart_button:hover {
+  color: #5156ea !important;
+}
+
+.woocommerce div.product div.summary .woocommerce-Price-amount,
+.woocommerce div.product .woocommerce-product-rating a:hover,
+.product_meta span,
+.product_meta span,
+.product_meta span span:hover,
+.product_meta span a:hover,
+.product_meta span .posted_in:hover,
+.woocommerce .quantity input[type=button],
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a,
+.woocommerce .products div.product .product-cat a:hover,
+.woocommerce .products div.product .woocommerce-loop-product__title:hover,
+.woocommerce .products div.product span.price,
+.woocommerce-message::before,
+.woocommerce table.shop_table td.product-price,
+.woocommerce table.shop_table td.product-subtotal,
+.woocommerce table.shop_table a:hover,
+.woocommerce .cart-collaterals table.shop_table th,
+.woocommerce-account .woocommerce-MyAccount-navigation ul li a:hover,
+.woocommerce-account .woocommerce-MyAccount-navigation ul li.is-active a,
+.cart-box .cart_list.product_list_widget.woocommerce-mini-cart li a:hover,
+.cart-box .cart_list.product_list_widget.woocommerce-mini-cart li span.quantity,
+.cart-box .woocommerce-mini-cart__total .woocommerce-Price-amount,
+.cart-box .woocommerce-mini-cart__buttons a.button.checkout:hover,
+.woocommerce-product-search button:before,
+.widget_products ul.product_list_widget li a:hover,
+.woocommerce .widget_recently_viewed_products ul.product_list_widget li a:hover,
+.woocommerce .widget_products ul.product_list_widget li a+.woocommerce-Price-amount,
+.woocommerce .widget_recently_viewed_products ul.product_list_widget li a+.woocommerce-Price-amount,
+.woocommerce .widget_products ul.product_list_widget li a+del,
+.woocommerce .widget_recently_viewed_products ul.product_list_widget li a+del,
+.product-categories a:before,
+.product-categories a:hover,
+.woocommerce-checkout table.shop_table th,
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item:hover,
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item a:before,
+.woocommerce .woocommerce-widget-layered-nav-list .woocommerce-widget-layered-nav-list__item a:hover,
+.woocommerce .widget_price_filter .price_slider_amount .button:hover {
+  color: #5156ea;
+}

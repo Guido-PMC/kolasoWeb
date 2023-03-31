@@ -1,0 +1,133 @@
+/*------------------------------------*\
+    #Video
+\*------------------------------------*/
+.video-button {
+    position: relative;
+    text-align: center;
+
+    .popup-video {
+        margin: 0 auto;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+
+        span {
+            position: relative;
+            width: 88px;
+            height: 88px;
+        }
+
+        span:before {
+            position: absolute;
+            left: -4px;
+            top: -37px;
+            content: "";
+            width: 88px;
+            height: 88px;
+            border: 2px solid $color-white;
+            border-radius: 50%;
+            opacity: 1;
+            animation: videoPulse 1s infinite linear;
+            animation-delay: .5s
+        }
+
+        i {
+            font-size: 18px;
+            width: 80px;
+            height: 80px;
+            line-height: 80px;
+            border-radius: 50%;
+            background-color: $color-white;
+            color: $color-heading;
+            position: relative;
+            display: inline-block;
+
+            &:hover {
+                color: $color-theme;
+            }
+        }
+
+        h6 {
+            color: white;
+            font-size: 16px;
+            font-weight: 700;
+            padding-top: 27px;
+            margin-bottom: 0;
+            line-height: 1;
+        }
+
+        &:hover {
+            animation: none;
+        }
+    }
+
+    &.player-dark {
+        .popup-video {
+
+            h6 {
+                color: $color-heading;
+            }
+
+            span:before {
+                border-color: $color-heading;
+            }
+
+            i {
+                background-color: $color-heading;
+                color: $color-white;
+            }
+
+            &:hover {
+                i {
+                    color: $color-theme;
+                }
+            }
+        }
+    }
+
+    &.player-theme {
+        .popup-video {
+
+            h6 {
+                color: $color-theme;
+            }
+
+            span:before {
+                border-color: $color-theme;
+            }
+
+            i {
+                background-color: $color-theme;
+                color: $color-white;
+            }
+
+            &:hover {
+                i {
+                    color: $color-heading;
+                }
+            }
+        }
+    }
+}
+
+@-webkit-keyframes videoPulse {
+    0% {
+        @include prefix(transform, scale(1), webkit moz ms o);
+    }
+
+    100% {
+        @include prefix(transform, scale(1.2), webkit moz ms o);
+        opacity: 0;
+    }
+}
+
+@keyframes videoPulse {
+    0% {
+        @include prefix(transform, scale(1), webkit moz ms o);
+    }
+
+    100% {
+        @include prefix(transform, scale(1.2), webkit moz ms o);
+        opacity: 0;
+    }
+}

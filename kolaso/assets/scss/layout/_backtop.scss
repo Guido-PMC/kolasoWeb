@@ -1,0 +1,52 @@
+/*------------------------------------*\
+    #BACK TO TOP
+\*------------------------------------*/
+.backtop {
+	z-index: 9999;
+	position: fixed;
+	right: 40px;
+	bottom: 40px;
+	opacity: 0;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: $color-white;
+	cursor: pointer;
+	border-radius: 50%;
+	@include transition(opacity 0.2s ease-out);
+	background-color: $color-theme;
+	font-size: 20px;
+
+	&.show {
+		opacity: 1;
+	}
+
+	&:hover {
+		background-color: $color-heading;
+	}
+
+	&.backtop-square {
+		@include rounded(0);
+	}
+
+	&.backtop-rounded {
+		@include rounded(5px);
+	}
+
+	&.backtop-circle {
+		@include rounded(50%);
+	}
+
+	&.backtop-left {
+		left: 40px;
+		right: auto;
+	}
+}
+
+
+@media only screen and (max-width : 992px) {
+	#backTop.show {
+		opacity: 0;
+	}
+}

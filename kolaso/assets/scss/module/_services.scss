@@ -1,0 +1,100 @@
+/*--------------------------------
+    #services
+---------------------------------*/
+.services {
+    .service-panel {
+        position: relative;
+        margin-bottom: 30px;
+
+        .service-img {
+            margin-bottom: 36px;
+            @include rounded(6px);
+            overflow: hidden;
+            @include prefix(transition, all .2s linear, webkit moz ms o);
+
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+
+            &:hover {
+                @include prefix(box-shadow, 0px 9px 30px 0px rgba(40, 40, 40, 0.15), moz webkit);
+                @include prefix(transform, translateY(-10px), webkit moz ms o);
+            }
+        }
+
+        .service-content {
+            h4 {
+                font-size: 18px;
+                font-weight: 800;
+                margin-bottom: 18px;
+
+                span {
+                    color: $color-theme;
+                    margin-right: 4px;
+                }
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 24px;
+                margin-bottom: 20px;
+            }
+        }
+
+        .service-more {
+            line-height: 1;
+
+            a {
+                color: #333333;
+                font-size: 13px;
+                font-weight: 700;
+                line-height: 1;
+                text-transform: capitalize;
+                position: relative;
+                display: inline-block;
+                overflow: hidden;
+
+                i {
+                    margin-right: 6px;
+                    @include prefix(transition, all .3s linear, webkit moz ms o);
+
+                }
+
+                span {
+                    display: inline-block;
+                    opacity: 0;
+                    margin-left: 8px;
+                    @include prefix(transform, translateX(-15px), webkit moz ms o);
+                    @include prefix(transition, all .2s linear, webkit moz ms o);
+                }
+            }
+        }
+
+
+        &:hover .service-more {
+            a {
+                color: $color-theme;
+            }
+
+            span {
+                opacity: 1;
+                @include prefix(transform, translateX(0), webkit moz ms o);
+
+            }
+        }
+
+    }
+
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .services {
+        .service-panel {
+            text-align: center;
+            max-width: 370px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+}

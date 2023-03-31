@@ -1,0 +1,302 @@
+/*------------------------------------*\
+    #Comments
+\*------------------------------------*/
+
+div.entry-comments {
+
+    h3.comments-title {
+        font-family: $font-body;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1;
+        margin-bottom: 0;
+        position: relative;
+        margin-bottom: 35px;
+        text-transform: capitalize;
+    }
+
+    ul.comments-list {
+
+        border-bottom: 1px solid #eaeaea;
+        margin-bottom: 40px;
+        padding-bottom: 30px;
+        width: 100%;
+        list-style: none;
+        overflow: hidden;
+        padding-left: 0;
+
+        .comment-body {
+            position: relative;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+
+            .comment-author {
+                position: relative;
+
+                img {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 50px;
+                    height: 50px;
+                    @include rounded(50%);
+                    overflow: hidden;
+                    z-index: 3;
+                }
+            }
+
+            .fn {
+                padding-left: 70px;
+                font-size: 15px;
+                font-weight: 800;
+                text-transform: capitalize;
+                color: $color-heading;
+                font-family: $font-heading;
+                line-height: 22px;
+                margin-bottom: 0;
+                margin-top: 0;
+
+                a {
+                    color: $color-heading;
+
+                    &:hover {
+                        color: $color-theme;
+                    }
+                }
+
+            }
+
+            .says {
+                font-size: 0;
+            }
+
+            .comment-metadata {
+                clear: both;
+                margin-bottom: 10px;
+                margin-top: 0;
+                padding-left: 70px;
+                color: #616161;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 24px;
+
+                a {
+                    color: #6f6f6f;
+
+                    &:hover {
+                        color: $color-theme
+                    }
+                }
+            }
+
+            .reply {
+                padding-left: 70px;
+
+                a {
+                    font-size: 13px;
+                    font-weight: 700;
+                    text-transform: capitalize;
+                    color: $color-theme;
+                    line-height: 1;
+                    margin-top: 10px;
+                    display: inline-block;
+
+                    &:hover {
+                        color: $color-heading
+                    }
+                }
+            }
+
+            .comment-content {
+                padding-left: 70px;
+                padding-right: 70px;
+
+
+                p {
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    margin-bottom: 5px;
+
+                }
+
+                blockquote {
+                    p {
+                        font-size: 20px;
+                        font-family: $font-heading;
+                        color: $color-body;
+                        font-style: italic;
+                        line-height: 28px;
+                    }
+                }
+
+
+            }
+
+        }
+
+        &>li:last-child .comment-body {
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-bottom: 0;
+        }
+
+        ul.children {
+            list-style: none;
+            margin: 40px 0 0 60px;
+            padding-left: 0;
+
+            .comment-body {
+                .comment {
+                    padding-left: 97px;
+                }
+            }
+
+            li {
+                border-bottom: none;
+
+                &:last-child {
+                    margin-bottom: 0;
+                    padding-bottom: 0;
+                }
+            }
+
+            ul {
+                .comment-body {
+                    .comment {
+                        padding-left: 90px;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .comment-respond {
+        margin-top: 20px;
+    }
+
+    .bypostauthor {
+        border-top: 5px solid #fafafa;
+    }
+
+    li ul.children li.bypostauthor {
+        border-top: 5px solid #fafafa;
+    }
+
+
+}
+
+
+/* Comment Respond */
+.comment-respond {
+    .comment-reply-title {
+        font-family: $font-body;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1;
+        margin-bottom: 0;
+        position: relative;
+        margin-bottom: 35px;
+        text-transform: capitalize;
+    }
+
+    form {
+        margin-bottom: 0;
+
+        input[type="text"] {
+            margin-bottom: 30px;
+            width: 32%;
+            float: left;
+            margin-right: 14px;
+            @include rounded(3px);
+
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+
+        textarea {
+            line-height: 24px;
+            padding: 20px;
+            width: 100%;
+            @include rounded(3px);
+            margin-bottom: 30px;
+            height: 120px;
+        }
+    }
+
+    p {
+        margin-bottom: 0;
+
+        &.form-submit {
+            margin-bottom: 30px;
+        }
+    }
+
+    .comment-notes,
+    .logged-in-as,
+    .no-comments {
+        color: $color-body;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1;
+        text-transform: capitalize;
+        margin-bottom: 15px;
+
+        a {
+            color: $color-theme;
+
+            &:hover {
+                color: $color-heading
+            }
+        }
+    }
+
+    .comment-notes {
+        .required {
+            color: $color-theme;
+        }
+
+    }
+
+    .submit {
+        position: relative;
+        z-index: 2;
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 0;
+        padding: 0;
+        line-height: 48px;
+        width: 170px;
+        height: 50px;
+        background-color: $color-theme;
+        color: $color-white;
+        border: none;
+        cursor: pointer;
+        @include transition(all 300ms linear);
+        @include rounded(3px);
+        @include prefix(box-shadow, 0 9px 30px rgba(40, 40, 40, 0.15), moz webkit);
+
+        &:hover {
+            background: darken($color-theme, 10%);
+            color: $color-white;
+            border: none !important;
+        }
+    }
+
+    #cancel-comment-reply-link {
+        padding: 5px 10px;
+        background: $color-theme;
+        border-radius: 3px;
+        color: $color-white;
+        margin: 0 10px;
+
+        &:hover {
+            background: $color-heading;
+        }
+    }
+}

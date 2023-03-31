@@ -1,0 +1,61 @@
+/*------------------------------------*\
+	#Widgets
+\*------------------------------------*/
+
+.widget {
+    margin-bottom: 50px;
+
+    .widget-title {
+        margin-bottom: 30px;
+        font-family: $font-body;
+        color: $color-secondary;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1;
+        text-transform: capitalize;
+        position: relative;
+    }
+
+}
+
+#secondary,
+.wpb_widgetised_column {
+    .widget {
+        background-color: #f9f9f9;
+        padding: 40px;
+        border-radius: 6px;
+        margin-bottom: 50px;
+    }
+}
+
+.woocommerce {
+    #secondary {
+        .widget {
+            background-color: transparent;
+            padding: 0;
+            @include rounded(0);
+        }
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) and (max-width :767px) {
+    .sidebar {
+        margin-top: 40px;
+    }
+
+    .widget {
+        margin-bottom: 30px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+    .sidebar {
+        margin-top: 40px;
+    }
+
+    .widget_recent .entry .entry-desc {
+        margin-left: 70px;
+    }
+}
